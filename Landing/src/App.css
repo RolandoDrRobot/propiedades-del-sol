@@ -10,7 +10,7 @@
   }
   :is(.dark .css-13cymwt-control){
     --tw-bg-opacity: 1;
-    background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+    background-color: #283618 !important;
   }
   
   .css-t3ipsp-control {
@@ -21,7 +21,7 @@
   
   :is(.dark .css-t3ipsp-control){
     --tw-bg-opacity: 1;
-    background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+    background-color: #283618 !important;
   }
   
   .css-1u9des2-indicatorSeparator{
@@ -57,7 +57,7 @@
   
   :is(.dark .css-1dimb5e-singleValue){
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: #FEFAE0 !important;
   }
   
   .css-1nmdiq5-menu{
@@ -76,11 +76,11 @@
   
   :is(.dark .css-1nmdiq5-menu){
     --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+    background-color: #283618 !important;
     --tw-shadow-color: #1f2937;
     --tw-shadow: var(--tw-shadow-colored);
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: #FEFAE0 !important;
   }
   
   .css-13cymwt-control:after,
