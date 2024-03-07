@@ -55,8 +55,8 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes >
-        <Route path="/" element={<Index />} />
-        <Route path="/index" element={<Index />} />
+        <Route path="/" element={<Buy />} />
+        <Route path="/index" element={<Buy />} />
 
         <Route path="/index-two" element={<IndexTwo />} />
         <Route path="/index-three" element={<IndexThree />} />
