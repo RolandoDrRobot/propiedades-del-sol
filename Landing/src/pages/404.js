@@ -27,7 +27,7 @@ export default function Page404() {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <p className="mb-0 text-slate-400">© {(new Date().getFullYear())}{" "} Hously. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-slate-400">© {(new Date().getFullYear())}{" "} Sun Real Estate. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                             </div>
                         </div>
                     </div>

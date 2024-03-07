@@ -118,14 +118,14 @@ export const review = [
         profile: client1,
         name: 'Calvin Carlo',
         designation: "Manager",
-        description: "Hously made the processes so easy. Hously instantly increased the amount of interest and ultimately saved us over $10,000."
+        description: "Sun Real Estate made the processes so easy. Sun Real Estate instantly increased the amount of interest and ultimately saved us over $10,000."
     },
     {
         id: '2',
         profile: client2,
         name: 'Christa Smith',
         designation: "Manager",
-        description: 'I highly recommend Hously as the new way to sell your home "by owner". My home sold in 24 hours for the asking price. Best $400 you could spend to sell your home.'
+        description: 'I highly recommend Sun Real Estate as the new way to sell your home "by owner". My home sold in 24 hours for the asking price. Best $400 you could spend to sell your home.'
     }, {
         id: '3',
         profile: client3,
@@ -263,7 +263,7 @@ export const accordionData = [
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {
-        title: 'Do I need a designer to use Hously ?',
+        title: 'Do I need a designer to use Sun Real Estate ?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {

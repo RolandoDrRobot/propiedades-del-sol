@@ -7,9 +7,8 @@ var scroll = Scroll.animateScroll;
 
 export default function Switcher() {
 
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-    }
+    const scrollToTop = () =>  scroll.scrollToTop();
+    document.documentElement.className = 'dark'
 
     const changeMode = (mode, event) => {
         switch (mode) {
@@ -38,7 +37,7 @@ export default function Switcher() {
     return (
         <>
             {/* <!-- Switcher --> */}
-            <div className="fixed top-1/4 -left-2 z-3">
+            {/* <div className="fixed top-1/4 -left-2 z-3">
                 <span className="relative inline-block rotate-90">
                     <input type="checkbox" className="checkbox opacity-0 absolute" id="chk" onClick={(event) => changeMode('mode', event)} />
                     <label className="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-700 cursor-pointer rounded-full flex justify-between items-center p-2 w-14 h-8" htmlFor="chk">
@@ -47,17 +46,17 @@ export default function Switcher() {
                         <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] start-[2px] w-7 h-7"></span>
                     </label>
                 </span>
-            </div>
+            </div> */}
 
             {/* <!-- Switcher --> */}
 
             {/* <!-- LTR & RTL Mode Code --> */}
-            <div className="fixed top-[40%] -left-3 z-50">
+            {/* <div className="fixed top-[40%] -left-3 z-50">
                 <Link to="#" id="switchRtl">
                     <span className="py-1 px-3 relative inline-block rounded-b-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold rtl:block ltr:hidden" onClick={(event) => changeMode('layout', event)}>LTR</span>
                     <span className="py-1 px-3 relative inline-block rounded-b-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold ltr:block rtl:hidden" onClick={(event) => changeMode('layout', event)}>RTL</span>
                 </Link>
-            </div>
+            </div> */}
 
             <Link to="#"
                 onClick={scrollToTop}

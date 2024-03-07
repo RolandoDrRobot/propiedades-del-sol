@@ -58,7 +58,7 @@ export default function IndexFour() {
                                                 <div className="subcribe-form z-1">
                                                     <form className="relative max-w-2xl mx-auto">
                                                         <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4" />
-                                                        <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="City, Address, Zip :" />
+                                                        <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="Make a Property Search" />
                                                         <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Find Out</button>
                                                     </form>
                                                 </div>
@@ -69,7 +69,7 @@ export default function IndexFour() {
                                                 <div className="subcribe-form z-1">
                                                     <form className="relative max-w-2xl mx-auto">
                                                         <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4" />
-                                                        <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="City, Address, Zip :" />
+                                                        <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="Make a Property Search" />
                                                         <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Find Out</button>
                                                     </form>
                                                 </div>
@@ -80,7 +80,7 @@ export default function IndexFour() {
                                                 <div className="subcribe-form z-1">
                                                     <form className="relative max-w-2xl mx-auto">
                                                         <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4" />
-                                                        <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="City, Address, Zip :" />
+                                                        <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="Make a Property Search" />
                                                         <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Find Out</button>
                                                     </form>
                                                 </div>
