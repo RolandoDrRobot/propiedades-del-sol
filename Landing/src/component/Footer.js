@@ -103,7 +103,7 @@ export default function Footer() {
                     <div className="container text-center">
                         <div className="grid md:grid-cols-2 items-center gap-6">
                             <div className="md:text-start text-center">
-                                <p className="mb-0 text-gray-300">© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} Sun Real Estate. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-gray-300">© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} Sun Real Estate. Design & Develop with <i className="mdi mdi-heart text-red-600"></i></p>
                             </div>
 
                             <ul className="list-none md:text-end text-center">
