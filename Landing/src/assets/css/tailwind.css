@@ -1393,7 +1393,7 @@ video {
 }
 .bg-black{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(22 28 45 / var(--tw-bg-opacity)) !important;
+  background-color: #4C6444 !important;
 }
 .bg-black\/50{
   background-color: rgb(22 28 45 / 0.5) !important;
@@ -1809,7 +1809,7 @@ video {
 }
 .text-slate-900{
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 .text-transparent{
   color: transparent !important;
@@ -1841,7 +1841,7 @@ video {
   opacity: 0.05 !important;
 }
 .opacity-80{
-  opacity: 0.8 !important;
+  opacity: 0.6 !important;
 }
 .shadow{
   --tw-shadow: 0 0 3px rgb(60 72 88 / 0.15) !important;
@@ -3021,7 +3021,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 :is(.dark .sidebar-nav li.account-menu.active .navbar-link),:is(.dark  .sidebar-nav li.account-menu:hover .navbar-link){
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 
 /* // _footer.scss */
@@ -4032,7 +4032,7 @@ html[dir=rtl] .tns-visually-hidden {
 }
 :is(.dark .dark\:text-slate-900){
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 :is(.dark .dark\:text-white){
   --tw-text-opacity: 1 !important;

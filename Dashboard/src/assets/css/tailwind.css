@@ -1823,7 +1823,7 @@ video {
 }
 .text-slate-900{
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 .text-slate-950{
   --tw-text-opacity: 1 !important;
@@ -2709,7 +2709,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   --tw-border-opacity: 1 !important;
   border-bottom-color: rgb(15 23 42 / var(--tw-border-opacity)) !important;
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 :is(.dark .container-filter-border-bottom li.active),:is(.dark  .container-filter-border-bottom li:hover){
   --tw-border-opacity: 1 !important;
@@ -3023,7 +3023,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 .ck.ck-toolbar > .ck-toolbar__items > :not(.ck-toolbar__line-break), .ck.ck-toolbar > .ck.ck-toolbar__grouped-dropdown{
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 
 :is(.dark .ck.ck-toolbar > .ck-toolbar__items > :not(.ck-toolbar__line-break)),:is(.dark  .ck.ck-toolbar > .ck.ck-toolbar__grouped-dropdown){
@@ -3110,7 +3110,7 @@ html[dir=rtl] .tns-visually-hidden {
   font-size: 14px !important;
   font-weight: 600 !important;
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 
 :is(.dark .apexcharts-legend-text){
@@ -3488,7 +3488,7 @@ html[dir=rtl] .tns-visually-hidden {
 }
 
 :is(.dark .dark\:bg-opacity-80){
-  --tw-bg-opacity: 0.8 !important;
+  --tw-bg-opacity: 0.6 !important;
 }
 
 :is(.dark .dark\:from-slate-800){
@@ -3575,7 +3575,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .dark\:hover\:text-slate-900:hover){
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: #102820 !important;
 }
 
 :is(.dark .dark\:hover\:text-white:hover){
