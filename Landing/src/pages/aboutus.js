@@ -111,7 +111,7 @@ export default function Aboutus() {
                     </div>
                 </div>
                 <ClientTwo />
-                <GetInTuch/>
+                {/* <GetInTuch/> */}
             </section>
             <Footer />
             <Switcher />

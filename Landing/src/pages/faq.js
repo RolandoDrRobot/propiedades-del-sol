@@ -213,7 +213,7 @@ export default function Faq() {
                     </div>
                 </div>
 
-                <GetInTuch/>
+                {/* <GetInTuch/> */}
             </section>
             <Footer />
             <Switcher />
