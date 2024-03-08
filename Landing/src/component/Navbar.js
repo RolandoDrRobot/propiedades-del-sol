@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
 
-import LogoLight from "../assets/images/logo-light.png";
+import LogoLight from "../assets/images/logo-dark.png";
 import LogoDark from "../assets/images/logo-dark.png";
 import { FiUser } from '../assets/icons/vander'
 
@@ -39,21 +39,37 @@ export default function Navbar(props) {
     return (
         <React.Fragment>
             <nav id="topnav" className={`defaultscroll is-sticky ${scroll ? 'nav-sticky' : ''} ${topnavClass ? topnavClass : ''}`} >
-                <div className={`${topnavClass !== '' && topnavClass !== undefined ? 'container-fluid md:px-8 px-3' : 'container'}`}>
+                <div 
+                  className={`${topnavClass !== '' && topnavClass !== undefined ? 'container-fluid md:px-8 px-3' : 'container'}`}
+                  
+                >
                     {/* <!-- Logo container--> */}
-                    {navClass === '' || navClass === undefined ?
+                    <div className="logo">
+                      {navClass === '' || navClass === undefined ?
                         <Link className="logo" to="/">
                             <img src={LogoDark} className="inline-block dark:hidden" alt="" />
                             <img src={LogoLight} className="hidden dark:inline-block" alt="" />
+                            <h1 className="inline-block">Sun Real Estate</h1>
                         </Link> :
                         <Link className="logo" to="#">
                             <span className="inline-block dark:hidden">
                                 <img src={LogoDark} className="l-dark" height="24" alt="" />
                                 <img src={LogoLight} className="l-light" height="24" alt="" />
+                                <h1 className="inline-block">Sun Real Estate</h1>
                             </span>
                             <img src={LogoLight} height="24" className="hidden dark:inline-block" alt="" />
                         </Link>
-                    }
+                        
+                      }
+                      <h1 
+                        style={{
+                          margin: '20px 0 0 -5px',
+                          fontSize: '1.5rem',
+                          textTransform: 'capitalize',}}  
+                        className="inline-block"
+                      >Sun Real Estate</h1>
+                    </div>
+                    
                     {/* <!-- End Logo container--> */}
 
                     {/* <!-- Start Mobile Toggle --> */}
@@ -84,17 +100,17 @@ export default function Navbar(props) {
                     <div id="navigation" style={{ display: toggle ? 'block' : 'none' }}>
                         {/* <!-- Navigation Menu--> */}
                         <ul className={`navigation-menu  ${navClass === '' || navClass === undefined ? '' : 'nav-light'}   ${topnavClass !== '' && topnavClass !== undefined ? 'justify-center' : 'justify-end'}`}>
-                            <li className={manu === "/buy" ? 'active' : ''}><NavLink to="/buy" activeclassname="active" className="sub-menu-item">Buy</NavLink></li>
+                            <li className={manu === "/buy" ? 'active' : ''}><NavLink to="/buy" activeclassname="active" className="sub-menu-item">Listings</NavLink></li>
 
                             <li className={manu === "/sell" ? 'active' : ''}><Link to="/sell" className="sub-menu-item">Sell</Link></li>
 
                             <li className={manu === "/aboutus" ? "active" : ''}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
                             
-                            <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Faqs</Link></li>
+                            <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Frequently Asked Questions</Link></li>
 
-                            <li className={manu === "/terms" ? "active" : ''}><Link to="/terms" className="sub-menu-item">Terms of Services</Link></li>
+                            {/* <li className={manu === "/terms" ? "active" : ''}><Link to="/terms" className="sub-menu-item">Terms of Services</Link></li>
                             
-                            <li className={manu === "/privacy" ? "active" : ''}><Link to="/privacy" className="sub-menu-item">Privacy Policy</Link></li>
+                            <li className={manu === "/privacy" ? "active" : ''}><Link to="/privacy" className="sub-menu-item">Privacy Policy</Link></li> */}
 
                             {/* <li className={`has-submenu parent-menu-item ${["/", "/index", "/index-two", "/index-three", "/index-four", "/index-five", "/index-six", "/index-seven"].includes(manu) ? 'active' : ''}`}>
                                 <Link to="#" onClick={(e) => { setSubManu(subManu === "/index-item" ? "" : "/index-item") }}>Home</Link><span className="menu-arrow"></span>

@@ -467,7 +467,7 @@ export const accordianData = [
         desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
     },
     {
-        title:'Do I need a designer to use Hously ?',
+        title:'Do I need a designer to use Sun Real Estate ?',
         desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
     },
     {
@@ -511,13 +511,13 @@ export const reviewData = [
         image: client2,
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"There are so many things I had to do with my old software that I just don't do at all with Hously. Suspicious but I can't say I don't love it."
+        desc:"There are so many things I had to do with my old software that I just don't do at all with Sun Real Estate. Suspicious but I can't say I don't love it."
     },
     {
         image: client3,
         name: 'Carl Oliver',
         title: 'Student',
-        desc:"The best part about Hously is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
+        desc:"The best part about Sun Real Estate is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
     },
     {
         image: client4,
@@ -529,7 +529,7 @@ export const reviewData = [
         image: client5,
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"I used to have to remit tax to the EU and with Hously I somehow don't have to do that anymore. Nervous to travel there now though."
+        desc:"I used to have to remit tax to the EU and with Sun Real Estate I somehow don't have to do that anymore. Nervous to travel there now though."
     },
     {
         image: client6,
@@ -547,13 +547,13 @@ export const reviewData = [
         image: client8,
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"There are so many things I had to do with my old software that I just don't do at all with Hously. Suspicious but I can't say I don't love it."
+        desc:"There are so many things I had to do with my old software that I just don't do at all with Sun Real Estate. Suspicious but I can't say I don't love it."
     },
     {
         image: client9,
         name: 'Carl Oliver',
         title: 'Student',
-        desc:"The best part about Hously is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
+        desc:"The best part about Sun Real Estate is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
     },
     {
         image: client10,
@@ -565,7 +565,7 @@ export const reviewData = [
         image: client11,
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"I used to have to remit tax to the EU and with Hously I somehow don't have to do that anymore. Nervous to travel there now though"
+        desc:"I used to have to remit tax to the EU and with Sun Real Estate I somehow don't have to do that anymore. Nervous to travel there now though"
     },
     {
         image: client12,
@@ -583,12 +583,12 @@ export const reviewData = [
         image: client1,
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"There are so many things I had to do with my old software that I just don't do at all with Hously. Suspicious but I can't say I don't love it."
+        desc:"There are so many things I had to do with my old software that I just don't do at all with Sun Real Estate. Suspicious but I can't say I don't love it."
     },
     {
         image: client2,
         name: 'Carl Oliver',
         title: 'Student',
-        desc:"The best part about Hously is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
+        desc:"The best part about Sun Real Estate is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
     },
 ]

@@ -1,7 +1,7 @@
 {
-  "name": "hously",
+  "name": "Sun Real Estate",
   "version": "2.0.0",
-  "description": "Hously - React Js Tailwind CSS Real Estate Template",
+  "description": "Sun Real Estate - React Js Tailwind CSS Real Estate Template",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Template Name: Hously - Tailwind CSS Real Estate Template
+/* Template Name: Sun Real Estate - Tailwind CSS Real Estate Template
    Author: Shreethemes
    Email: support@shreethemes.in
    Website: https://shreethemes.in
@@ -288,24 +288,24 @@ textarea {
 */
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: rgb(243 244 246 / var(--tw-text-opacity)) !important; /* 2 */
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: rgb(243 244 246 / var(--tw-text-opacity)) !important; /* 2 */
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: rgb(243 244 246 / var(--tw-text-opacity)) !important; /* 2 */
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: rgb(243 244 246 / var(--tw-text-opacity)) !important; /* 2 */
 }
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: rgb(243 244 246 / var(--tw-text-opacity)) !important; /* 2 */
 }
 /*
 Set the default cursor for buttons.
@@ -1470,7 +1470,7 @@ video {
 }
 .bg-slate-400{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity)) !important;
+  background-color: #CABA9C !important;
 }
 .bg-slate-50{
   --tw-bg-opacity: 1 !important;
@@ -1481,7 +1481,7 @@ video {
 }
 .bg-slate-900{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
 }
 .bg-transparent{
   background-color: transparent !important;
@@ -1819,7 +1819,7 @@ video {
 }
 .text-slate-400{
   --tw-text-opacity: 1 !important;
-  color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+  color: #CABA9C !important;
 }
 .text-slate-900{
   --tw-text-opacity: 1 !important;
@@ -1971,7 +1971,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 :is(.dark .page-wrapper .sidebar-wrapper){
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: #102820;
 }
 @media (max-width: 1024px) {
   .page-wrapper .sidebar-wrapper{
@@ -2207,7 +2207,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 .page-wrapper .sidebar-wrapper.sidebar-dark{
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: #102820;
 }
 .page-wrapper .sidebar-wrapper.sidebar-colored{
   --tw-bg-opacity: 1;
@@ -2325,8 +2325,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 :is(.dark .page-wrapper .page-content .top-header .header-bar){
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-  --tw-shadow-color: #374151;
+  background-color: #102820;
+  --tw-shadow-color: #4C6444;
   --tw-shadow: var(--tw-shadow-colored);
 }
 @media (max-width: 425px) {
@@ -2394,7 +2394,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is(.dark .sidebar-footer){
-  --tw-shadow-color: #374151;
+  --tw-shadow-color: #4C6444;
   --tw-shadow: var(--tw-shadow-colored);
 }
 @media (max-width: 425px) {
@@ -2566,7 +2566,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   width: 0.25rem !important;
   content: var(--tw-content) !important;
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity)) !important;
+  background-color: #CABA9C !important;
 }
 :is(.dark .simplebar-track.simplebar-vertical .simplebar-scrollbar)::before{
   content: var(--tw-content) !important;
@@ -2634,7 +2634,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   --tw-border-opacity: 1;
   border-color: rgb(31 41 55 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: #102820;
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
 }
@@ -2817,10 +2817,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 :is(.dark .tns-controls button[data-controls=prev]),:is(.dark 
 .tns-controls button[data-controls=next]){
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: #102820;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  --tw-shadow-color: #374151;
+  --tw-shadow-color: #4C6444;
   --tw-shadow: var(--tw-shadow-colored);
 }
 .tns-controls button[data-controls=prev]:hover,
@@ -3041,7 +3041,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .apexcharts-tooltip){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
   --tw-shadow-color: #1f2937 !important;
@@ -3424,7 +3424,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .dark\:border-gray-700){
   --tw-border-opacity: 1 !important;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important;
+  border-color: #4C6444 !important;;
 }
 
 :is(.dark .dark\:border-gray-800){
@@ -3475,7 +3475,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .dark\:bg-slate-900){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
 }
 
 :is(.dark .dark\:bg-slate-900\/70){
@@ -3529,7 +3529,7 @@ html[dir=rtl] .tns-visually-hidden {
 }
 
 :is(.dark .dark\:shadow-gray-700){
-  --tw-shadow-color: #374151 !important;
+  --tw-shadow-color: #4C6444 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
@@ -3591,13 +3591,13 @@ html[dir=rtl] .tns-visually-hidden {
 }
 
 :is(.dark .dark\:hover\:shadow-gray-700:hover){
-  --tw-shadow-color: #374151 !important;
+  --tw-shadow-color: #4C6444 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
 :is(.dark .dark\:focus\:border-gray-700:focus){
   --tw-border-opacity: 1 !important;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important;
+  border-color: #4C6444 !important;;
 }
 
 :is(.dark .dark\:focus\:border-green-600:focus){
