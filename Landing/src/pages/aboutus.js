@@ -22,7 +22,7 @@ export default function Aboutus() {
         <>
             <Navbar navClass="navbar-white" />
             {/* <!-- Start Hero --> */}
-            <section
+            {/* <section
                 style={{ backgroundImage: `url(${BackgroudImage})` }}
                 className="relative table w-full py-32 lg:py-36 bg-no-repeat bg-center bg-cover">
                 <div className="absolute inset-0 bg-black opacity-80"></div>
@@ -38,12 +38,12 @@ export default function Aboutus() {
                         <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
                     </svg>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- End Hero --> */}
-            <section className="relative md:pb-24 pb-16">
+            {/* <section className="relative md:pb-24 pb-16">
                 <About />
                 <Feature />
-            </section>
+            </section> */}
             {/* <!-- Start CTA --> */}
             <section
                 style={{ backgroundImage: `url(${BackgroudImage})` }}
@@ -84,10 +84,10 @@ export default function Aboutus() {
                         <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                     </div>
 
-                    <div className="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
+                    <div className="md:grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
                         {teamdata.map((item,index) =>{
                             return(
-                                <div className="lg:col-span-3 md:col-span-6" key={index}>
+                                <div className="lg:col-span-3 md:col-span-6 mt-8" key={index}>
                                     <div className="group text-center">
                                         <div className="relative inline-block mx-auto h-52 w-52 rounded-full overflow-hidden">
                                             <img src={item.image} className="" alt="" />

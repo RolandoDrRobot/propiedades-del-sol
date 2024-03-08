@@ -68,7 +68,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="container lg:mt-24 mt-16">
+                {/* <div className="container lg:mt-24 mt-16">
                     <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
                         <div className="text-center px-6">
                             <div className="relative overflow-hidden text-transparent -m-3">
@@ -125,7 +125,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             {/* <!-- End Section--> */}
 

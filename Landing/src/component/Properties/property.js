@@ -15,15 +15,15 @@ export default function Property() {
                     <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                 </div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-2 gap-[30px]">
                     {properties.map((item, index) => (
                         <div className="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
                             <div className="relative">
                                 <img src={item.image} alt="" />
-
+{/* 
                                 <div className="absolute top-4 end-4">
                                     <Link to="#" className="btn btn-icon bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-full text-slate-100 dark:text-slate-700 focus:text-red-600 dark:focus:text-red-600 hover:text-red-600 dark:hover:text-red-600"><i className="mdi mdi-heart mdi-18px"></i></Link>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="p-6">

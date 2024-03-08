@@ -142,16 +142,6 @@ export const review = [
 ]
 export const teamdata = [
     {
-        image: client4,
-        name: 'Jack John',
-        title: 'Designer'
-    },
-    {
-        image: client5,
-        name: 'Krista John',
-        title: 'Designer'
-    },
-    {
         image: client6,
         name: 'Roger Jackson',
         title: 'Designer'

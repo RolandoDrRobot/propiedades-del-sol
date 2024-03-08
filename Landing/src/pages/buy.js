@@ -50,7 +50,7 @@ export default function Buy() {
                 <Property />
                 <Feature />
                 <BuyTab />
-                <GetInTuch/>
+                {/* <GetInTuch/> */}
             </section>
             <Footer />
             <Switcher />

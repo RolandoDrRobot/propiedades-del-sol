@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoLight from "../assets/images/logo-light.png";
+import LogoLight from "../assets/images/logo-dark.png";
 import {HiOutlineEnvelope, BsPencil, MdKeyboardArrowRight, BiLogoBehance, FiMapPin, FiMail, FiPhone, FiShoppingCart, FiDribbble, FiLinkedin, FiFacebook, FiInstagram, FiTwitter} from "../assets/icons/vander"
 
 
@@ -14,7 +14,7 @@ export default function Footer() {
                         <div className="relative py-16">
                             {/* <!-- Subscribe --> */}
                             <div className="relative w-full">
-                                <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
+                                {/* <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
                                     <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                                         <div className="md:text-start text-center z-1">
                                             <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Subscribe to Newsletter!</h3>
@@ -36,13 +36,23 @@ export default function Footer() {
                                     <div className="absolute -bottom-5 -end-5">
                                         <BsPencil className="lg:text-[150px] text-7xl text-black/5 dark:text-white/5 rtl:-rotate-90"/>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px] -mt-24">
                                     <div className="lg:col-span-4 md:col-span-12">
-                                        <Link to="#" className="text-[22px] focus:outline-none">
+                                        <div className="flex">
+                                          <Link to="#" className="text-[22px] focus:outline-none">
                                             <img src={LogoLight} alt="" />
-                                        </Link>
+                                          </Link>
+                                          <h1 
+                                            style={{
+                                              margin: '0 0 0 10px',
+                                              fontSize: '1.5rem',
+                                              fontWeight: '600',
+                                              textTransform: 'capitalize',}}  
+                                            className="inline-block"
+                                          >Sun Real Estate</h1>
+                                        </div>
                                         <p className="mt-6 text-gray-300">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
 
                                     </div>
@@ -107,10 +117,6 @@ export default function Footer() {
                             </div>
 
                             <ul className="list-none md:text-end text-center">
-                                <li className="inline ms-1"><Link to="https://1.envato.market/Sun Real Estate-react" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiShoppingCart className="h-4 w-4"/></Link></li>
-                                <li className="inline ms-1"><Link to="https://dribbble.com/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiDribbble className="h-4 w-4"/></Link></li>
-                                <li className="inline ms-1"><Link to="https://www.behance.net/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><BiLogoBehance className="align-baseline"/></Link></li>
-                                <li className="inline ms-1"><Link to="http://linkedin.com/company/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiLinkedin className="h-4 w-4"/></Link></li>
                                 <li className="inline ms-1"><Link to="https://www.facebook.com/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiFacebook className="h-4 w-4"/></Link></li>
                                 <li className="inline ms-1"><Link to="https://www.instagram.com/shreethemes/" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiInstagram className="h-4 w-4"/></Link></li>
                                 <li className="inline ms-1"><Link to="https://twitter.com/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiTwitter className="h-4 w-4"/></Link></li>

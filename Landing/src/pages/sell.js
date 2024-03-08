@@ -9,20 +9,20 @@ import GetInTuch from "../component/Get-in-tuch";
 
 export default function Sell() {
 
-    useEffect(() => {
-        const rangeSlider = document.getElementById('slider');
-        const value = rangeSlider.value;
-        document.getElementById('amount-label').innerHTML = value;
-        document.getElementById('saving-label').innerHTML = parseFloat(value * 0.01).toFixed(2);
-        window.scrollTo(0, 0)
-    });
+    // useEffect(() => {
+    //     const rangeSlider = document.getElementById('slider');
+    //     const value = rangeSlider.value;
+    //     document.getElementById('amount-label').innerHTML = value;
+    //     document.getElementById('saving-label').innerHTML = parseFloat(value * 0.01).toFixed(2);
+    //     window.scrollTo(0, 0)
+    // });
 
-    const handleChange = (e) => {
-        console.log(e.target.value, '32');
-        const value = e.target.value;
-        document.getElementById('amount-label').innerHTML = value;
-        document.getElementById('saving-label').innerHTML = parseFloat(value * 0.01).toFixed(2);
-    }
+    // const handleChange = (e) => {
+    //     console.log(e.target.value, '32');
+    //     const value = e.target.value;
+    //     document.getElementById('amount-label').innerHTML = value;
+    //     document.getElementById('saving-label').innerHTML = parseFloat(value * 0.01).toFixed(2);
+    // }
 
 
     return (
@@ -51,7 +51,7 @@ export default function Sell() {
             {/* End Hero  */}
             <section className="relative md:pb-24 pb-16">
                 <Feature />
-                <div className="container lg:mt-24 mt-16">
+                {/* <div className="container lg:mt-24 mt-16">
                     <div className="grid grid-cols-1 pb-8 text-center">
                         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Brokerage Calculator</h3>
 
@@ -91,7 +91,7 @@ export default function Sell() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                <GetInTuch/>
             </section>
