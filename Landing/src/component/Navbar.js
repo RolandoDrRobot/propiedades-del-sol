@@ -106,7 +106,7 @@ export default function Navbar(props) {
 
                             <li className={manu === "/aboutus" ? "active" : ''}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
                             
-                            <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Frequently Asked Questions</Link></li>
+                            {/* <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Frequently Asked Questions</Link></li> */}
 
                             {/* <li className={manu === "/terms" ? "active" : ''}><Link to="/terms" className="sub-menu-item">Terms of Services</Link></li>
                             
