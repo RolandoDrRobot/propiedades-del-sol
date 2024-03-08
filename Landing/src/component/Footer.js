@@ -60,7 +60,9 @@ export default function Footer() {
                                     <div className="lg:col-span-2 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Company</h5>
                                         <ul className="list-none footer-list mt-6">
-                                            <li><Link to="/aboutus" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> About us</Link></li>
+                                            <li className="mt-[10px]"><Link to="/terms" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Terms of Services</Link></li>
+                                            <li className="mt-[10px]"><Link to="/privacy" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Privacy Policy</Link></li>
+                                            <li className="mt-[10px]" ><Link to="/aboutus" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> About us</Link></li>
                                             {/* <li className="mt-[10px]"><Link to="/features" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Services</Link></li>
                                             <li className="mt-[10px]"><Link to="/pricing" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Pricing</Link></li>
                                             <li className="mt-[10px]"><Link to="/blog" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Blog</Link></li>
@@ -71,10 +73,12 @@ export default function Footer() {
                                     <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Usefull Links</h5>
                                         <ul className="list-none footer-list mt-6">
-                                            <li><Link to="/terms" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Terms of Services</Link></li>
-                                            <li className="mt-[10px]"><Link to="/privacy" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Privacy Policy</Link></li>
+                                            <li className="mt-[10px]"><Link to="/" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Listings</Link></li>
+                                            <li className="mt-[10px]"><Link to="/sell" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> I want to sell</Link></li>
+                                            {/* <li><Link to="/terms" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Terms of Services</Link></li>
+                                            <li className="mt-[10px]"><Link to="/privacy" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Privacy Policy</Link></li> */}
                                             {/* <li className="mt-[10px]"><Link to="/listing-one" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Listing</Link></li> */}
-                                            <li className="mt-[10px]"><Link to="/contact" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Contact</Link></li>
+                                            {/* <li className="mt-[10px]"><Link to="/contact" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Contact</Link></li> */}
                                         </ul>
                                     </div>
 
@@ -98,7 +102,7 @@ export default function Footer() {
                                         <div className="flex mt-6">
                                             <FiPhone className="w-5 h-5 text-green-600 me-3"/>
                                             <div className="">
-                                                <Link to="tel:+152534-468-854" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">+152 534-468-854</Link>
+                                                <Link to="tel:+506 7161 2344" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">+506 7161 2344</Link>
                                             </div>
                                         </div>
                                     </div>

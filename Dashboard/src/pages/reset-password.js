@@ -44,7 +44,7 @@ export default function ResetPassword(){
                         </div>
                         
                         <div className="px-6 py-2 bg-slate-50 dark:bg-slate-800 text-center">
-                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Sun Real Estate</p>
+                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Propiedades del Sol</p>
                         </div>
                     </div>
                 </div>

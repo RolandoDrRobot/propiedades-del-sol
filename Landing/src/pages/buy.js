@@ -22,7 +22,7 @@ export default function Buy() {
                 <div className="absolute inset-0 bg-black opacity-80"></div>
                 <div className="container">
                     <div className="grid grid-cols-1 text-center mt-10">
-                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Explore Premium Pre Market Real Estate Deals with Us!</h3>
+                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Descubre las Oportunidades ANTES de Que Lleguen al Mercado</h3>
                     </div>
                 </div>
             </section>
@@ -40,8 +40,8 @@ export default function Buy() {
                         <div className="subcribe-form z-1">
                             <form className="relative max-w-2xl mx-auto">
                                 <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4"></FiSearch>
-                                <input type="name" id="search_name" name="name" className="rounded-md bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="Make a Property Search" />
-                                <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-md">Search</button>
+                                <input type="name" id="search_name" name="name" className="rounded-md bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 ps-12" placeholder="Busca por ubicación o tipo" />
+                                <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-md">Buscar</button>
                             </form>
                         </div>
                     </div>

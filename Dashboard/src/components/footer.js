@@ -7,7 +7,7 @@ export default function Footer(){
             <div className="container-fluid">
                 <div className="grid grid-cols-1">
                     <div className="sm:text-start text-center mx-md-2">
-                        <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Sun Real Estate. Design with <i className="mdi mdi-heart text-red-600"></i></p>
+                        <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Propiedades del Sol. Design with <i className="mdi mdi-heart text-red-600"></i></p>
                     </div>
                 </div>
             </div>

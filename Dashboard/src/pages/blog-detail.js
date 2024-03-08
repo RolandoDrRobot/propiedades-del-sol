@@ -19,7 +19,7 @@ export default function BlogDetail(){
                     <h5 className="text-lg font-semibold">{data?.title ? data.title : 'Skills That You Can Learn In The Real Estate Market'}</h5>
 
                     <ul className="tracking-[0.5px] inline-block sm:mt-0 mt-3">
-                        <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="/index">Sun Real Estate</Link></li>
+                        <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="/index">Propiedades del Sol</Link></li>
                         <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block capitalize text-[16px] font-medium text-green-600 dark:text-white" aria-current="page">Blog Detail</li>
                     </ul>

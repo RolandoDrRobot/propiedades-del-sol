@@ -100,11 +100,11 @@ export default function Navbar(props) {
                     <div id="navigation" style={{ display: toggle ? 'block' : 'none' }}>
                         {/* <!-- Navigation Menu--> */}
                         <ul className={`navigation-menu  ${navClass === '' || navClass === undefined ? '' : 'nav-light'}   ${topnavClass !== '' && topnavClass !== undefined ? 'justify-center' : 'justify-end'}`}>
-                            <li className={manu === "/buy" ? 'active' : ''}><NavLink to="/buy" activeclassname="active" className="sub-menu-item">Listings</NavLink></li>
+                            <li className={manu === "/buy" ? 'active' : ''}><NavLink to="/buy" activeclassname="active" className="sub-menu-item">Oportunidades</NavLink></li>
 
-                            <li className={manu === "/sell" ? 'active' : ''}><Link to="/sell" className="sub-menu-item">Sell</Link></li>
+                            <li className={manu === "/sell" ? 'active' : ''}><Link to="/sell" className="sub-menu-item">Quiero Vender</Link></li>
 
-                            <li className={manu === "/aboutus" ? "active" : ''}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
+                            <li className={manu === "/aboutus" ? "active" : ''}><Link to="/aboutus" className="sub-menu-item">Quiénes somos</Link></li>
                             
                             {/* <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Frequently Asked Questions</Link></li> */}
 
