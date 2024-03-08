@@ -49,13 +49,13 @@ export default function Navbar(props) {
                         <Link className="logo" to="/">
                             <img src={LogoDark} className="inline-block dark:hidden" alt="" />
                             <img src={LogoLight} className="hidden dark:inline-block" alt="" />
-                            <h1 className="inline-block">Sun Real Estate</h1>
+                            <h1 className="inline-block">Propiedades del Sol</h1>
                         </Link> :
                         <Link className="logo" to="#">
                             <span className="inline-block dark:hidden">
                                 <img src={LogoDark} className="l-dark" height="24" alt="" />
                                 <img src={LogoLight} className="l-light" height="24" alt="" />
-                                <h1 className="inline-block">Sun Real Estate</h1>
+                                <h1 className="inline-block">Propiedades del Sol</h1>
                             </span>
                             <img src={LogoLight} height="24" className="hidden dark:inline-block" alt="" />
                         </Link>
@@ -67,7 +67,7 @@ export default function Navbar(props) {
                           fontSize: '1.5rem',
                           textTransform: 'capitalize',}}  
                         className="inline-block"
-                      >Sun Real Estate</h1>
+                      >Propiedades del Sol</h1>
                     </div>
                     
                     {/* <!-- End Logo container--> */}

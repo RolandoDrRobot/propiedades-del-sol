@@ -103,7 +103,7 @@ export default function GridMap() {
                                     <div className="container text-center px-6">
                                         <div className="grid md:grid-cols-2 items-center gap-6">
                                             <div className="md:text-start text-center">
-                                                <p className="mb-0 text-gray-300">© {(new Date().getFullYear())}{" "} Sun Real Estate. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link rel="noreferrer" to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                                <p className="mb-0 text-gray-300">© {(new Date().getFullYear())}{" "} Propiedades del Sol. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link rel="noreferrer" to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                                             </div>
 
                                             <ul className="list-none md:text-end text-center">

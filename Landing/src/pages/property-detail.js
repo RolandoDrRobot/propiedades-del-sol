@@ -147,7 +147,7 @@ function PropertyDetail(props) {
 
                                         <ul className="list-none mt-4">
                                             <li className="flex justify-between items-center">
-                                                <span className="text-slate-400 text-sm">Days on Sun Real Estate</span>
+                                                <span className="text-slate-400 text-sm">Days on Propiedades del Sol</span>
                                                 <span className="font-medium text-sm">124 Days</span>
                                             </li>
 

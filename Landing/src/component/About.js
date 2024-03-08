@@ -28,7 +28,7 @@ export default function About() {
                     <div className="md:col-span-7">
                         <div className="lg:ms-4">
                             <h4 className="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Efficiency. Transparency. <br /> Control.</h4>
-                            <p className="text-slate-400 max-w-xl">Sun Real Estate developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Sun Real Estate is Real Estate Redefined.</p>
+                            <p className="text-slate-400 max-w-xl">Propiedades del Sol developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Propiedades del Sol is Real Estate Redefined.</p>
 
                             <div className="mt-4">
                                 <Link to="#" className="btn bg-green-600 hover:bg-green-700 text-white rounded-md mt-3">Learn More </Link>
