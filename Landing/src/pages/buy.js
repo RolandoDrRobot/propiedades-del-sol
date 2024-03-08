@@ -22,7 +22,7 @@ export default function Buy() {
                 <div className="absolute inset-0 bg-black opacity-80"></div>
                 <div className="container">
                     <div className="grid grid-cols-1 text-center mt-10">
-                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Descubre las Oportunidades ANTES de Que Lleguen al Mercado</h3>
+                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Descubre las Oportunidades Antes de Que Lleguen al Mercado</h3>
                     </div>
                 </div>
             </section>
@@ -48,7 +48,7 @@ export default function Buy() {
                 </div>
                 {/* End Hero  */}
                 <Property />
-                <Feature />
+                {/* <Feature /> */}
                 <BuyTab />
                 {/* <GetInTuch/> */}
             </section>

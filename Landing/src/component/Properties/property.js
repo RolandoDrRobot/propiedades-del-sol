@@ -31,31 +31,31 @@ export default function Property() {
                   <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
                 </div>
 
-                <ul className="py-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none">
+                <ul className="border-y border-slate-100 dark:border-gray-800 flex items-center list-none">
                   <li className="flex items-center me-4">
                     <LiaCompressArrowsAltSolid className="text-2xl me-2 text-green-600" /><i ></i>
-                    <span>{item.square}sqf</span>
+                    <span>{item.square} mts2</span>
                   </li>
 
                   <li className="flex items-center me-4">
                     <BiBed className="text-2xl me-2 text-green-600" />
-                    <span>{item.beds} Beds</span>
+                    <span>{item.beds}</span>
                   </li>
 
                   <li className="flex items-center">
                     <LiaBathSolid className="text-2xl me-2 text-green-600" />
-                    <span>{item.baths} Baths</span>
+                    <span>{item.baths}</span>
                   </li>
                 </ul>
 
                 <ul className="pt-6 flex justify-between items-center list-none">
                   <li>
-                    <span className="text-slate-400">Price</span>
+                    <span className="text-slate-400">Precio</span>
                     <p className="text-lg font-medium">${item.price}</p>
                   </li>
 
                   <li>
-                    <span className="text-slate-400">Rating</span>
+                    <span className="text-slate-400">Valoración</span>
                     <ul className="text-lg font-medium text-amber-400 list-none">
                       <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
                       <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
