@@ -93,7 +93,7 @@ export default function Sell() {
                     </div>
                 </div> */}
 
-        {/* <GetInTuch/> */}
+        <GetInTuch/>
       </section>
       <Footer />
       <Switcher />

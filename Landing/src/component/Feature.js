@@ -6,10 +6,10 @@ export default function Feature() {
   return (
     <>
       <div className="container lg:mt-24 mt-16">
-        <div className="grid grid-cols-1 pb-4 text-center">
-          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">How It Works</h3>
+        <div className="grid grid-cols-1 text-center">
+          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿Cómo funciona?</h3>
 
-          <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+          {/* <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p> */}
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">

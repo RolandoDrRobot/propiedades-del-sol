@@ -1479,7 +1479,7 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .to-black{
-  --tw-gradient-to: #161c2d var(--tw-gradient-to-position) !important;
+  --tw-gradient-to: #102820 var(--tw-gradient-to-position) !important;
 }
 .to-transparent{
   --tw-gradient-to: transparent var(--tw-gradient-to-position) !important;
@@ -2009,6 +2009,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   text-align: center;
   font-size: 17px;
   line-height: 24px;
+}
+.btn.btn-icon svg {
+  fill: #fff;
 }
 .btn.btn-icon.btn-lg{
   height: 3.5rem;
@@ -4056,7 +4059,7 @@ html[dir=rtl] .tns-visually-hidden {
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 :is(.dark .dark\:shadow-gray-800){
-  --tw-shadow-color: #1f2937 !important;
+  --tw-shadow-color: #102820 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 :is(.dark .dark\:hover\:border-green-600:hover){

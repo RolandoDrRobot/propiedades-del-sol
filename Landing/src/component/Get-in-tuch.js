@@ -7,11 +7,12 @@ export default function GetInTuch() {
   return (
     <div className="container lg:mt-24 mt-16">
       <div className="grid grid-cols-1 text-center">
-        <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Have Question ? Get in touch!</h3>
+        <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">¿Tienes alguna pregunta?</h3>
+        <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">¡Ponte en contacto!</h3>
 
-        <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+        {/* <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p> */}
 
-        <div className="container lg:mt-24 mt-16">
+        <div className="container lg:mt-24 mt-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
             <div className="text-center px-6">
               <div className="relative overflow-hidden text-transparent -m-3">
@@ -22,11 +23,11 @@ export default function GetInTuch() {
               </div>
 
               <div className="content mt-7">
-                <h5 className="title h5 text-xl font-medium">Phone</h5>
-                <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
+                <h5 className="title h5 text-xl font-medium">WhatsApp</h5>
+                {/* <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p> */}
 
-                <div className="mt-5">
-                  <Link to="tel:+152534-468-854" className="btn btn-link text-green-600 hover:text-green-600 after:bg-green-600 transition duration-500">+152 534-468-854</Link>
+                <div className="">
+                  <Link to="tel:+50671612344" className="btn btn-link text-green-600 hover:text-green-600 after:bg-green-600 transition duration-500">+506 7161 2344</Link>
                 </div>
               </div>
             </div>
@@ -41,9 +42,9 @@ export default function GetInTuch() {
 
               <div className="content mt-7">
                 <h5 className="title h5 text-xl font-medium">Email</h5>
-                <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
+                {/* <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p> */}
 
-                <div className="mt-5">
+                <div className="">
                   <Link to="mailto:contact@example.com" className="btn btn-link text-green-600 hover:text-green-600 after:bg-green-600 transition duration-500">contact@example.com</Link>
                 </div>
               </div>

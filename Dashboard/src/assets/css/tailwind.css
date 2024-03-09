@@ -1516,7 +1516,7 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .to-black{
-  --tw-gradient-to: #161c2d var(--tw-gradient-to-position) !important;
+  --tw-gradient-to: #102820 var(--tw-gradient-to-position) !important;
 }
 .to-transparent{
   --tw-gradient-to: transparent var(--tw-gradient-to-position) !important;
@@ -2115,7 +2115,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 :is(.dark .page-wrapper .sidebar-wrapper .sidebar-menu li a i){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
 }
 .page-wrapper .sidebar-wrapper .sidebar-menu li:hover i, .page-wrapper .sidebar-wrapper .sidebar-menu li.active i{
   --tw-bg-opacity: 1;
@@ -2498,6 +2498,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   font-size: 17px;
   line-height: 24px;
 }
+.btn.btn-icon svg {
+  fill: #fff;
+}
 .btn.btn-icon.btn-lg{
   height: 3.5rem;
   width: 3.5rem;
@@ -2632,7 +2635,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 :is(.dark .form-input){
   --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  border-color: #4c6444 !important;
   --tw-bg-opacity: 1;
   background-color: #102820;
   --tw-text-opacity: 1;
@@ -2947,7 +2950,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .fc-daygrid-dot-event){
   --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  border-color: #4c6444 !important;
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
@@ -3044,7 +3047,7 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: #102820 !important;
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-  --tw-shadow-color: #1f2937 !important;
+  --tw-shadow-color: #102820 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
@@ -3061,7 +3064,7 @@ html[dir=rtl] .tns-visually-hidden {
   --tw-border-opacity: 1 !important;
   border-color: rgb(31 41 55 / var(--tw-border-opacity)) !important;
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
@@ -3094,7 +3097,7 @@ html[dir=rtl] .tns-visually-hidden {
 .apexcharts-line-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events),:is(.dark 
 .apexcharts-radar-series path),:is(.dark 
 .apexcharts-radar-series polygon){
-  stroke: #1f2937 !important;
+  stroke: #102820 !important;
 }
 
 .apexcharts-data-labels, .apexcharts-datalabels text, .apexcharts-xaxis text, .apexcharts-yaxis text{
@@ -3470,7 +3473,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .dark\:bg-slate-800){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
 }
 
 :is(.dark .dark\:bg-slate-900){
@@ -3534,7 +3537,7 @@ html[dir=rtl] .tns-visually-hidden {
 }
 
 :is(.dark .dark\:shadow-gray-800){
-  --tw-shadow-color: #1f2937 !important;
+  --tw-shadow-color: #102820 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
@@ -3565,7 +3568,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 :is(.dark .dark\:hover\:bg-slate-800:hover){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+  background-color: #102820 !important;
 }
 
 :is(.dark .dark\:hover\:text-red-600:hover){
