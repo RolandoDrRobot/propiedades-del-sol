@@ -6,88 +6,89 @@ import LogoDark from "../assets/images/logo-dark.png";
 import { FiUser } from '../assets/icons/vander'
 
 export default function Navbar(props) {
-    const { navClass, topnavClass } = props;
+  const { navClass, topnavClass } = props;
 
-    let [toggle, setToggle] = useState(false);
-    let [manu, setManu] = useState('');
-    let [subManu, setSubManu] = useState('');
-    let [scroll, setScroll] = useState(false)
+  let [toggle, setToggle] = useState(false);
+  let [manu, setManu] = useState('');
+  let [subManu, setSubManu] = useState('');
+  let [scroll, setScroll] = useState(false)
 
-    const location = useLocation();
+  const location = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        let current = location.pathname
-        setManu(current)
-        setSubManu(current)
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    let current = location.pathname
+    setManu(current)
+    setSubManu(current)
 
-        let windowScroll = () => {
-            setScroll(window.scrollY > 50);
-        }
-        window.addEventListener('scroll', windowScroll)
+    let windowScroll = () => {
+      setScroll(window.scrollY > 50);
+    }
+    window.addEventListener('scroll', windowScroll)
 
-        return () => {
-            window.removeEventListener('scroll', windowScroll)
-        }
-    }, [location.pathname])
-
-
-    // render() {
-    // const toggleClass = this.state.isOpenMenu ? 'hidden' : 'block';
+    return () => {
+      window.removeEventListener('scroll', windowScroll)
+    }
+  }, [location.pathname])
 
 
-    return (
-        <React.Fragment>
-            <nav id="topnav" className={`defaultscroll is-sticky ${scroll ? 'nav-sticky' : ''} ${topnavClass ? topnavClass : ''}`} >
-                <div 
-                  className={`${topnavClass !== '' && topnavClass !== undefined ? 'container-fluid md:px-8 px-3' : 'container'}`}
-                  
-                >
-                    {/* <!-- Logo container--> */}
-                    <div className="logo">
-                      {navClass === '' || navClass === undefined ?
-                        <Link className="logo" to="/">
-                            <img src={LogoDark} className="inline-block dark:hidden" alt="" />
-                            <img src={LogoLight} className="hidden dark:inline-block" alt="" />
-                            <h1 className="inline-block">Propiedades del Sol</h1>
-                        </Link> :
-                        <Link className="logo" to="#">
-                            <span className="inline-block dark:hidden">
-                                <img src={LogoDark} className="l-dark" height="24" alt="" />
-                                <img src={LogoLight} className="l-light" height="24" alt="" />
-                                <h1 className="inline-block">Propiedades del Sol</h1>
-                            </span>
-                            <img src={LogoLight} height="24" className="hidden dark:inline-block" alt="" />
-                        </Link>
-                        
-                      }
-                      <h1 
-                        style={{
-                          margin: '20px 0 0 -5px',
-                          fontSize: '1.5rem',
-                          textTransform: 'capitalize',}}  
-                        className="inline-block"
-                      >Propiedades del Sol</h1>
-                    </div>
-                    
-                    {/* <!-- End Logo container--> */}
+  // render() {
+  // const toggleClass = this.state.isOpenMenu ? 'hidden' : 'block';
 
-                    {/* <!-- Start Mobile Toggle --> */}
-                    <div className="menu-extras">
-                        <div className="menu-item">
-                            <Link to="#" className={`${toggle ? 'open' : ''} navbar-toggle`} id="isToggle" onClick={() => setToggle(!toggle)} >
-                                <div className="lines">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                    {/* <!-- End Mobile Toggle --> */}
 
-                    {/* <!-- Login button Start --> */}
-                    {/* <ul className="buy-button list-none mb-0">
+  return (
+    <React.Fragment>
+      <nav id="topnav" className={`defaultscroll is-sticky ${scroll ? 'nav-sticky' : ''} ${topnavClass ? topnavClass : ''}`} >
+        <div
+          className={`${topnavClass !== '' && topnavClass !== undefined ? 'container-fluid md:px-8 px-3' : 'container'}`}
+
+        >
+          {/* <!-- Logo container--> */}
+          <div className="logo">
+            {navClass === '' || navClass === undefined ?
+              <Link className="logo" to="/">
+                <img src={LogoDark} className="inline-block dark:hidden" alt="" />
+                <img src={LogoLight} className="hidden dark:inline-block" alt="" />
+                <h1 className="inline-block">Propiedades del Sol</h1>
+              </Link> :
+              <Link className="logo" to="#">
+                <span className="inline-block dark:hidden">
+                  <img src={LogoDark} className="l-dark" height="24" alt="" />
+                  <img src={LogoLight} className="l-light" height="24" alt="" />
+                  <h1 className="inline-block">Propiedades del Sol</h1>
+                </span>
+                <img src={LogoLight} height="24" className="hidden dark:inline-block" alt="" />
+              </Link>
+
+            }
+            <h1
+              style={{
+                margin: '20px 0 0 -5px',
+                fontSize: '1.5rem',
+                textTransform: 'capitalize',
+              }}
+              className="inline-block"
+            >Propiedades del Sol</h1>
+          </div>
+
+          {/* <!-- End Logo container--> */}
+
+          {/* <!-- Start Mobile Toggle --> */}
+          <div className="menu-extras">
+            <div className="menu-item">
+              <Link to="#" className={`${toggle ? 'open' : ''} navbar-toggle`} id="isToggle" onClick={() => setToggle(!toggle)} >
+                <div className="lines">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </Link>
+            </div>
+          </div>
+          {/* <!-- End Mobile Toggle --> */}
+
+          {/* <!-- Login button Start --> */}
+          {/* <ul className="buy-button list-none mb-0">
                         <li className="inline mb-0">
                             <Link to="/auth-login" className="btn btn-icon bg-green-600 hover:bg-green-700 border-green-600 dark:border-green-600 text-white rounded-full"><FiUser className="h-4 w-4 stroke-[3]" /></Link>
                         </li>
@@ -95,24 +96,24 @@ export default function Navbar(props) {
                             <Link to="/auth-signup" className="btn bg-green-600 hover:bg-green-700 border-green-600 dark:border-green-600 text-white rounded-full">Signup</Link>
                         </li>
                     </ul> */}
-                    {/* <!--Login button End--> */}
+          {/* <!--Login button End--> */}
 
-                    <div id="navigation" style={{ display: toggle ? 'block' : 'none' }}>
-                        {/* <!-- Navigation Menu--> */}
-                        <ul className={`navigation-menu  ${navClass === '' || navClass === undefined ? '' : 'nav-light'}   ${topnavClass !== '' && topnavClass !== undefined ? 'justify-center' : 'justify-end'}`}>
-                            <li className={manu === "/buy" ? 'active' : ''}><NavLink to="/buy" activeclassname="active" className="sub-menu-item">Oportunidades</NavLink></li>
+          <div id="navigation" style={{ display: toggle ? 'block' : 'none' }}>
+            {/* <!-- Navigation Menu--> */}
+            <ul className={`navigation-menu  ${navClass === '' || navClass === undefined ? '' : 'nav-light'}   ${topnavClass !== '' && topnavClass !== undefined ? 'justify-center' : 'justify-end'}`}>
+              <li className={manu === "/buy" ? 'active' : ''}><NavLink to="/buy" activeclassname="active" className="sub-menu-item">Oportunidades</NavLink></li>
 
-                            <li className={manu === "/sell" ? 'active' : ''}><Link to="/sell" className="sub-menu-item">Quiero Vender</Link></li>
+              <li className={manu === "/sell" ? 'active' : ''}><Link to="/sell" className="sub-menu-item">Quiero Vender</Link></li>
 
-                            <li className={manu === "/aboutus" ? "active" : ''}><Link to="/aboutus" className="sub-menu-item">Quiénes somos</Link></li>
-                            
-                            {/* <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Frequently Asked Questions</Link></li> */}
+              <li className={manu === "/aboutus" ? "active" : ''}><Link to="/aboutus" className="sub-menu-item">Quiénes somos</Link></li>
 
-                            {/* <li className={manu === "/terms" ? "active" : ''}><Link to="/terms" className="sub-menu-item">Terms of Services</Link></li>
+              {/* <li className={manu === "/faqs" ? "active" : ''}><Link to="/faqs" className="sub-menu-item">Frequently Asked Questions</Link></li> */}
+
+              {/* <li className={manu === "/terms" ? "active" : ''}><Link to="/terms" className="sub-menu-item">Terms of Services</Link></li>
                             
                             <li className={manu === "/privacy" ? "active" : ''}><Link to="/privacy" className="sub-menu-item">Privacy Policy</Link></li> */}
 
-                            {/* <li className={`has-submenu parent-menu-item ${["/", "/index", "/index-two", "/index-three", "/index-four", "/index-five", "/index-six", "/index-seven"].includes(manu) ? 'active' : ''}`}>
+              {/* <li className={`has-submenu parent-menu-item ${["/", "/index", "/index-two", "/index-three", "/index-four", "/index-five", "/index-six", "/index-seven"].includes(manu) ? 'active' : ''}`}>
                                 <Link to="#" onClick={(e) => { setSubManu(subManu === "/index-item" ? "" : "/index-item") }}>Home</Link><span className="menu-arrow"></span>
                                 <ul className={`submenu ${["/index", "/index-two", "/index-three", "/index-four", "/index-five", "/index-six", "/index-seven", "/index-item"].includes(subManu) ? 'open' : ''}`}>
                                     <li className={manu === "/index" ? 'active' : ''}><Link to="/index" className="sub-menu-item">Hero One</Link></li>
@@ -125,7 +126,7 @@ export default function Navbar(props) {
                                 </ul>
                             </li> */}
 
-                            {/* <li className={`has-submenu parent-parent-menu-item ${["/grid", "/grid-sidebar", "/grid-map", "/list", "/list-sidebar", "/list-map", "/property-detail/1"].includes(manu) ? 'active' : ''}`}>
+              {/* <li className={`has-submenu parent-parent-menu-item ${["/grid", "/grid-sidebar", "/grid-map", "/list", "/list-sidebar", "/list-map", "/property-detail/1"].includes(manu) ? 'active' : ''}`}>
                                 <Link to="#" onClick={() => { setSubManu(subManu === "/list-item" ? "" : "/list-item") }}>Listing</Link><span className="menu-arrow"></span>
                                 <ul className={`submenu ${["/grid", "/grid-sidebar", "/grid-map", "/list", "/list-sidebar", "/list-map", "/property-detail/1", "/list-item", "/grid-item", "/list-view-item", "/property-item"].includes(subManu) ? 'open' : ''}`}>
                                     <li className={`has-submenu parent-menu-item ${["/grid", "/grid-sidebar", "/grid-map"].includes(manu) ? 'active' : ''}`}><Link to="#" onClick={() => { setSubManu(subManu === "/grid-item" ? "" : "/grid-item") }}> Grid View </Link><span className="submenu-arrow"></span>
@@ -150,10 +151,10 @@ export default function Navbar(props) {
                                 </ul>
                             </li> */}
 
-                            {/* <li className={manu === "/features" ? "active" : ''}><Link to="/features" className="sub-menu-item">Featues</Link></li> */}
-                            {/* <li className={manu === "/pricing" ? "active" : ''}><Link to="/pricing" className="sub-menu-item">Pricing</Link></li> */}
+              {/* <li className={manu === "/features" ? "active" : ''}><Link to="/features" className="sub-menu-item">Featues</Link></li> */}
+              {/* <li className={manu === "/pricing" ? "active" : ''}><Link to="/pricing" className="sub-menu-item">Pricing</Link></li> */}
 
-                            {/* <li className={`has-submenu parent-parent-menu-item ${["/aboutus", "/features", "/pricing", "/faqs", "/auth-login", "/auth-signup", "/auth-reset-password", "/terms", "/privacy", "/blogs", "/blog-sidebar", "/blog-detail", "/comingsoon", "/maintenance", "/404"].includes(manu) ? 'active' : ''}`}>
+              {/* <li className={`has-submenu parent-parent-menu-item ${["/aboutus", "/features", "/pricing", "/faqs", "/auth-login", "/auth-signup", "/auth-reset-password", "/terms", "/privacy", "/blogs", "/blog-sidebar", "/blog-detail", "/comingsoon", "/maintenance", "/404"].includes(manu) ? 'active' : ''}`}>
                                 <Link to="#" onClick={() => { setSubManu(subManu === "/page-item" ? '' : "/page-item") }}>Pages</Link><span className="menu-arrow"></span>
                                 <ul className={`submenu ${["/aboutus", "/features", "/pricing", "/faqs", "/auth-login", "/auth-signup", "/auth-reset-password", "/terms", "/privacy", "/blogs", "/blog-sidebar", "/blog-detail", "/comingsoon", "/maintenance", "/404", "/page-item", "/auth-item", "/term-item", "/blog-item", "/special-item"].includes(subManu) ? 'open' : ''}`}>
                                     <li className={`has-submenu parent-menu-item ${["/auth-login", "/auth-signup", "/auth-reset-password"].includes(manu) ? 'active' : ''}`}><Link to="#" onClick={() => { setSubManu(subManu === "/auth-item" ? '' : "/auth-item") }}> Auth Pages </Link><span className="submenu-arrow"></span>
@@ -186,12 +187,12 @@ export default function Navbar(props) {
                             </li>
 
                             <li className={manu === "/contact" ? "active" : ''}><Link to="/contact" className="sub-menu-item">Contact</Link></li> */}
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            {/* End Navbar  */}
-        </React.Fragment>
-    );
+            </ul>
+          </div>
+        </div>
+      </nav>
+      {/* End Navbar  */}
+    </React.Fragment>
+  );
 
 }

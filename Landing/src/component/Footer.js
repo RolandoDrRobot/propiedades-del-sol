@@ -14,29 +14,29 @@ export default function Footer() {
             <div className="relative py-16">
               {/* <!-- Subscribe --> */}
               <div className="relative w-full">
-                {/* <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
-                                    <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-                                        <div className="md:text-start text-center z-1">
-                                            <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Subscribe to Newsletter!</h3>
-                                            <p className="text-slate-400 max-w-xl mx-auto">Subscribe to get latest updates and information.</p>
-                                        </div>
+                <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
+                  <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+                    <div className="md:text-start text-center z-1">
+                      <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Recibe las Oportunidades Antes que Nadie!</h3>
+                      <p className="text-slate-400 max-w-xl mx-auto">suscríbete a nuestra lista exclusiva de inversionistas</p>
+                    </div>
 
-                                        <div className="subcribe-form z-1">
-                                            <form className="relative max-w-lg md:ms-auto">
-                                                <input type="email" id="subcribe" name="email" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700" placeholder="Enter your email :" />
-                                                <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Subscribe</button>
-                                            </form>
-                                        </div>
-                                    </div>
+                    <div className="subcribe-form z-1">
+                      <form className="relative max-w-lg md:ms-auto">
+                        <input type="email" id="subcribe" name="email" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700" placeholder="Escribe tu email" />
+                        <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Suscribirse</button>
+                      </form>
+                    </div>
+                  </div>
 
-                                    <div className="absolute -top-5 -start-5">
-                                        <HiOutlineEnvelope  className="lg:text-[150px] text-7xl text-black/5 dark:text-white/5 ltr:-rotate-45 rtl:rotate-45"/>
-                                    </div>
+                  <div className="absolute -top-5 -start-5">
+                    <HiOutlineEnvelope className="lg:text-[150px] text-7xl text-black/5 dark:text-white/5 ltr:-rotate-45 rtl:rotate-45" />
+                  </div>
 
-                                    <div className="absolute -bottom-5 -end-5">
-                                        <BsPencil className="lg:text-[150px] text-7xl text-black/5 dark:text-white/5 rtl:-rotate-90"/>
-                                    </div>
-                                </div> */}
+                  <div className="absolute -bottom-5 -end-5">
+                    <BsPencil className="lg:text-[150px] text-7xl text-black/5 dark:text-white/5 rtl:-rotate-90" />
+                  </div>
+                </div>
 
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px] -mt-24">
                   <div className="lg:col-span-4 md:col-span-12">
@@ -117,7 +117,7 @@ export default function Footer() {
           <div className="container text-center">
             <div className="grid md:grid-cols-2 items-center gap-6">
               <div className="md:text-start text-center">
-                <p className="mb-0 text-gray-300">© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} Propiedades del Sol <i className="mdi mdi-heart text-red-600"></i></p>
+                <p className="mb-0 text-gray-300">© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} Propiedades del Sol ©</p>
               </div>
 
               <ul className="list-none md:text-end text-center">

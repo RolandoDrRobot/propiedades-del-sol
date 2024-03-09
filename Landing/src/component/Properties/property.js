@@ -10,8 +10,8 @@ export default function Property() {
     <>
       <div className="container lg:mt-24 mt-16">
         <div className="grid grid-cols-1 pb-8 text-center">
-          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿Cuándo es el mejor momento para comprar una inversión? <br />Antes que los demás </h3>
-          <p className="text-slate-400 max-w-xl mx-auto">Tenemos oportunidades exclusivas y filtradas, solo para inversioninstas</p>
+          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿Cuándo es el mejor momento para comprar una inversión? <br />Antes que lleguen al mercado </h3>
+          <p className="text-slate-400 max-w-xl mx-auto">Encontramos oportunidades exclusivas y filtradas, solo para inversioninstas</p>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-2 gap-[30px]">
