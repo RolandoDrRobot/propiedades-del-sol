@@ -45,7 +45,7 @@ export default function GetInTuch() {
                 {/* <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p> */}
 
                 <div className="">
-                  <Link to="mailto:contact@example.com" className="btn btn-link text-green-600 hover:text-green-600 after:bg-green-600 transition duration-500">contact@example.com</Link>
+                  <Link to="mailto:rolando.arguello.emal@gmail.com" className="btn btn-link text-green-600 hover:text-green-600 after:bg-green-600 transition duration-500">rolando.arguello.emal@gmail.com</Link>
                 </div>
               </div>
             </div>

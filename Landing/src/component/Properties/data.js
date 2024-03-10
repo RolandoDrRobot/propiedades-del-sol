@@ -6,6 +6,12 @@ import Property4 from "../../assets/images/property/4.jpg";
 import Property5 from "../../assets/images/property/5.jpg";
 import Property6 from "../../assets/images/property/6.jpg";
 
+import Land1 from "../../assets/images/land/1.jpeg";
+import Land2 from "../../assets/images/land/2.jpeg";
+import Land3 from "../../assets/images/land/3.jpeg";
+import Land4 from "../../assets/images/land/4.jpeg";
+import Land5 from "../../assets/images/land/5.jpeg";
+
 import SubProperty1 from "../../assets/images/property/single/1.jpg";
 import SubProperty2 from "../../assets/images/property/single/2.jpg";
 import SubProperty3 from "../../assets/images/property/single/3.jpg";
@@ -26,74 +32,522 @@ import cate3 from "../../assets/images/property/commercial.jpg";
 import cate4 from "../../assets/images/property/investment.jpg";
 import cate5 from "../../assets/images/property/industrial.jpg";
 
-export const properties = [
+export const propertiesLand = [
   {
     id: 1,
-    image: Property1,
+    agentId: 1,
+    image: Land1,
     name: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
     square: 8000,
-    beds: 4,
-    baths: 4,
+    type: "land",
     price: 5000,
     rating: 5.0,
-    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5]
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "123 Tranquil Lane",
+    country: "United States",
+    state: "California",
+    detail: [Land1, Land2, Land3, Land4, Land5],
+    terrainFeatures: {
+      canItBeDivided: "Yes, into two parcels",
+      terrainType: "Rural",
+      elevation: "Gentle Slope",
+      soilQuality: "Loamy",
+      naturalResources: ["Timber", "Freshwater"],
+      topography: "Varied",
+      accessibility: "Private Road",
+      proximityToAmenities: "30 minutes to nearest town",
+      environmentalConcerns: "None reported"
+    },
+    legalConsiderations: {
+      zoningRegulations: "Agricultural",
+      landUseRestrictions: "None",
+      easements: "Utility Easement",
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Well",
+      sewerSystem: "Septic Tank (not installed)",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Propane",
+      internetConnectivity: "Available"
+    },
+    developmentPotential: {
+      futureLandValue: "Expected to appreciate with local development",
+      potentialLandUse: "Residential or Agricultural",
+      infrastructurePlans: "None currently",
+      surroundingDevelopment: "Primarily farmland and rural residences",
+      marketTrends: "Stable demand for rural properties"
+    }
+  },
+
+  {
+    id: 2,
+    agentId: 1,
+    image: Land2,
+    name: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
+    square: 8000,
+    type: "land",
+    price: 5000,
+    rating: 5.0,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "123 Tranquil Lane",
+    country: "United States",
+    state: "California",
+    detail: [Land1, Land2, Land3, Land4, Land5],
+    terrainFeatures: {
+      canItBeDivided: "Yes, into two parcels",
+      terrainType: "Rural",
+      elevation: "Gentle Slope",
+      soilQuality: "Loamy",
+      naturalResources: ["Timber", "Freshwater"],
+      topography: "Varied",
+      accessibility: "Private Road",
+      proximityToAmenities: "30 minutes to nearest town",
+      environmentalConcerns: "None reported"
+    },
+    legalConsiderations: {
+      zoningRegulations: "Agricultural",
+      landUseRestrictions: "None",
+      easements: "Utility Easement",
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Well",
+      sewerSystem: "Septic Tank (not installed)",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Propane",
+      internetConnectivity: "Available"
+    },
+    developmentPotential: {
+      futureLandValue: "Expected to appreciate with local development",
+      potentialLandUse: "Residential or Agricultural",
+      infrastructurePlans: "None currently",
+      surroundingDevelopment: "Primarily farmland and rural residences",
+      marketTrends: "Stable demand for rural properties"
+    }
+  },
+
+  {
+    id: 3,
+    agentId: 1,
+    image: Land3,
+    name: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
+    square: 8000,
+    type: "land",
+    price: 5000,
+    rating: 5.0,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "123 Tranquil Lane",
+    country: "United States",
+    state: "California",
+    detail: [Land1, Land2, Land3, Land4, Land5],
+    terrainFeatures: {
+      canItBeDivided: "Yes, into two parcels",
+      terrainType: "Rural",
+      elevation: "Gentle Slope",
+      soilQuality: "Loamy",
+      naturalResources: ["Timber", "Freshwater"],
+      topography: "Varied",
+      accessibility: "Private Road",
+      proximityToAmenities: "30 minutes to nearest town",
+      environmentalConcerns: "None reported"
+    },
+    legalConsiderations: {
+      zoningRegulations: "Agricultural",
+      landUseRestrictions: "None",
+      easements: "Utility Easement",
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Well",
+      sewerSystem: "Septic Tank (not installed)",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Propane",
+      internetConnectivity: "Available"
+    },
+    developmentPotential: {
+      futureLandValue: "Expected to appreciate with local development",
+      potentialLandUse: "Residential or Agricultural",
+      infrastructurePlans: "None currently",
+      surroundingDevelopment: "Primarily farmland and rural residences",
+      marketTrends: "Stable demand for rural properties"
+    }
+  },
+
+  {
+    id: 4,
+    agentId: 1,
+    image: Land4,
+    name: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
+    square: 8000,
+    type: "land",
+    price: 5000,
+    rating: 5.0,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "123 Tranquil Lane",
+    country: "United States",
+    state: "California",
+    detail: [Land1, Land2, Land3, Land4, Land5],
+    terrainFeatures: {
+      canItBeDivided: "Yes, into two parcels",
+      terrainType: "Rural",
+      elevation: "Gentle Slope",
+      soilQuality: "Loamy",
+      naturalResources: ["Timber", "Freshwater"],
+      topography: "Varied",
+      accessibility: "Private Road",
+      proximityToAmenities: "30 minutes to nearest town",
+      environmentalConcerns: "None reported"
+    },
+    legalConsiderations: {
+      zoningRegulations: "Agricultural",
+      landUseRestrictions: "None",
+      easements: "Utility Easement",
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Well",
+      sewerSystem: "Septic Tank (not installed)",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Propane",
+      internetConnectivity: "Available"
+    },
+    developmentPotential: {
+      futureLandValue: "Expected to appreciate with local development",
+      potentialLandUse: "Residential or Agricultural",
+      infrastructurePlans: "None currently",
+      surroundingDevelopment: "Primarily farmland and rural residences",
+      marketTrends: "Stable demand for rural properties"
+    }
+  },
+
+  {
+    id: 5,
+    agentId: 1,
+    image: Land5,
+    name: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
+    square: 8000,
+    type: "land",
+    price: 5000,
+    rating: 5.0,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "123 Tranquil Lane",
+    country: "United States",
+    state: "California",
+    detail: [Land1, Land2, Land3, Land4, Land5],
+    terrainFeatures: {
+      canItBeDivided: "Yes, into two parcels",
+      terrainType: "Rural",
+      elevation: "Gentle Slope",
+      soilQuality: "Loamy",
+      naturalResources: ["Timber", "Freshwater"],
+      topography: "Varied",
+      accessibility: "Private Road",
+      proximityToAmenities: "30 minutes to nearest town",
+      environmentalConcerns: "None reported"
+    },
+    legalConsiderations: {
+      zoningRegulations: "Agricultural",
+      landUseRestrictions: "None",
+      easements: "Utility Easement",
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Well",
+      sewerSystem: "Septic Tank (not installed)",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Propane",
+      internetConnectivity: "Available"
+    },
+    developmentPotential: {
+      futureLandValue: "Expected to appreciate with local development",
+      potentialLandUse: "Residential or Agricultural",
+      infrastructurePlans: "None currently",
+      surroundingDevelopment: "Primarily farmland and rural residences",
+      marketTrends: "Stable demand for rural properties"
+    }
+  }
+]
+
+export const propertiesResidential = [
+  {
+    id: 1,
+    agentId: 1,
+    image: Property1,
+    name: "Modern Urban Oasis",
+    square: 2500,
+    type: "residential",
+    price: 350000,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "456 Cityscape Avenue",
+    country: "United States",
+    state: "New York",
+    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5],
+    architectureFeatures: {
+      buildingType: "Single-Family Home",
+      yearBuilt: 2020,
+      bedrooms: 4,
+      bathrooms: 3,
+      garageCapacity: 2,
+      flooringMaterial: "Hardwood",
+      heatingSystem: "Central Heating",
+      coolingSystem: "Central Air Conditioning"
+    },
+    amenities: {
+      kitchenFeatures: ["Granite Countertops", "Stainless Steel Appliances"],
+      masterSuite: true,
+      fireplace: true,
+      pool: false,
+      securitySystem: true
+    },
+    legalConsiderations: {
+      zoningRegulations: "Residential",
+      hoaFees: 500,
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "City Water",
+      sewerSystem: "Public Sewer",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Natural Gas",
+      internetConnectivity: "Fiber Optic"
+    },
+    neighborhood: {
+      schoolDistrict: "City School District",
+      proximityToAmenities: "Walking distance to parks, shops, and restaurants",
+      crimeRate: "Low",
+      communityVibe: "Family-Friendly"
+    }
   },
   {
     id: 2,
+    agentId: 1,
     image: Property2,
-    name: '59345 STONEWALL DR, Plaquemine, LA 70764, USA',
-    square: 8000,
-    beds: 4,
-    baths: 4,
-    price: 5000,
-    rating: 5.0,
-    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5]
+    name: "Modern Urban Oasis",
+    square: 2500,
+    type: "residential",
+    price: 350000,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "456 Cityscape Avenue",
+    country: "United States",
+    state: "New York",
+    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5],
+    architectureFeatures: {
+      buildingType: "Single-Family Home",
+      yearBuilt: 2020,
+      bedrooms: 4,
+      bathrooms: 3,
+      garageCapacity: 2,
+      flooringMaterial: "Hardwood",
+      heatingSystem: "Central Heating",
+      coolingSystem: "Central Air Conditioning"
+    },
+    amenities: {
+      kitchenFeatures: ["Granite Countertops", "Stainless Steel Appliances"],
+      masterSuite: true,
+      fireplace: true,
+      pool: false,
+      securitySystem: true
+    },
+    legalConsiderations: {
+      zoningRegulations: "Residential",
+      hoaFees: 500,
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "City Water",
+      sewerSystem: "Public Sewer",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Natural Gas",
+      internetConnectivity: "Fiber Optic"
+    },
+    neighborhood: {
+      schoolDistrict: "City School District",
+      proximityToAmenities: "Walking distance to parks, shops, and restaurants",
+      crimeRate: "Low",
+      communityVibe: "Family-Friendly"
+    }
   },
   {
     id: 3,
+    agentId: 1,
     image: Property3,
-    name: '3723 SANDBAR DR, Addis, LA 70710, USA',
-    square: 8000,
-    beds: 4,
-    baths: 4,
-    price: 5000,
-    rating: 5.0,
-    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5]
+    name: "Modern Urban Oasis",
+    square: 2500,
+    type: "residential",
+    price: 350000,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "456 Cityscape Avenue",
+    country: "United States",
+    state: "New York",
+    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5],
+    architectureFeatures: {
+      buildingType: "Single-Family Home",
+      yearBuilt: 2020,
+      bedrooms: 4,
+      bathrooms: 3,
+      garageCapacity: 2,
+      flooringMaterial: "Hardwood",
+      heatingSystem: "Central Heating",
+      coolingSystem: "Central Air Conditioning"
+    },
+    amenities: {
+      kitchenFeatures: ["Granite Countertops", "Stainless Steel Appliances"],
+      masterSuite: true,
+      fireplace: true,
+      pool: false,
+      securitySystem: true
+    },
+    legalConsiderations: {
+      zoningRegulations: "Residential",
+      hoaFees: 500,
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "City Water",
+      sewerSystem: "Public Sewer",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Natural Gas",
+      internetConnectivity: "Fiber Optic"
+    },
+    neighborhood: {
+      schoolDistrict: "City School District",
+      proximityToAmenities: "Walking distance to parks, shops, and restaurants",
+      crimeRate: "Low",
+      communityVibe: "Family-Friendly"
+    }
   },
   {
     id: 4,
+    agentId: 1,
     image: Property4,
-    name: 'Lot 21 ROYAL OAK DR, Prairieville, LA 70769, USA',
-    square: 8000,
-    beds: 4,
-    baths: 4,
-    price: 5000,
-    rating: 5.0,
-    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5]
+    name: "Modern Urban Oasis",
+    square: 2500,
+    type: "residential",
+    price: 350000,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "456 Cityscape Avenue",
+    country: "United States",
+    state: "New York",
+    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5],
+    architectureFeatures: {
+      buildingType: "Single-Family Home",
+      yearBuilt: 2020,
+      bedrooms: 4,
+      bathrooms: 3,
+      garageCapacity: 2,
+      flooringMaterial: "Hardwood",
+      heatingSystem: "Central Heating",
+      coolingSystem: "Central Air Conditioning"
+    },
+    amenities: {
+      kitchenFeatures: ["Granite Countertops", "Stainless Steel Appliances"],
+      masterSuite: true,
+      fireplace: true,
+      pool: false,
+      securitySystem: true
+    },
+    legalConsiderations: {
+      zoningRegulations: "Residential",
+      hoaFees: 500,
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "City Water",
+      sewerSystem: "Public Sewer",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Natural Gas",
+      internetConnectivity: "Fiber Optic"
+    },
+    neighborhood: {
+      schoolDistrict: "City School District",
+      proximityToAmenities: "Walking distance to parks, shops, and restaurants",
+      crimeRate: "Low",
+      communityVibe: "Family-Friendly"
+    }
   },
   {
     id: 5,
+    agentId: 1,
     image: Property5,
-    name: '710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA',
-    square: 8000,
-    beds: 4,
-    baths: 4,
-    price: 5000,
-    rating: 5.0,
-    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5]
-  },
-  {
-    id: 6,
-    image: Property6,
-    name: '5133 MCLAIN WAY, Baton Rouge, LA 70809, USA',
-    square: 8000,
-    beds: 4,
-    baths: 4,
-    price: 5000,
-    rating: 5.0,
-    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5]
+    name: "Modern Urban Oasis",
+    square: 2500,
+    type: "residential",
+    price: 350000,
+    description: "Contemporary 4-bedroom home with city views and smart home features",
+    googleMapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0000000000005!2d-117.16200000000001!3d32.7157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e5d%3A0x4f3d3d3e3e3e3e3e!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1633660000000!5m2!1sen!2sus",
+    address: "456 Cityscape Avenue",
+    country: "United States",
+    state: "New York",
+    detail: [SubProperty1, SubProperty2, SubProperty3, SubProperty4, SubProperty5],
+    architectureFeatures: {
+      buildingType: "Single-Family Home",
+      yearBuilt: 2020,
+      bedrooms: 4,
+      bathrooms: 3,
+      garageCapacity: 2,
+      flooringMaterial: "Hardwood",
+      heatingSystem: "Central Heating",
+      coolingSystem: "Central Air Conditioning"
+    },
+    amenities: {
+      kitchenFeatures: ["Granite Countertops", "Stainless Steel Appliances"],
+      masterSuite: true,
+      fireplace: true,
+      pool: false,
+      securitySystem: true
+    },
+    legalConsiderations: {
+      zoningRegulations: "Residential",
+      hoaFees: 500,
+      propertyTaxStatus: "Current",
+      titleIssues: "None",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "City Water",
+      sewerSystem: "Public Sewer",
+      electricitySource: "Local Power Grid",
+      gasAvailability: "Natural Gas",
+      internetConnectivity: "Fiber Optic"
+    },
+    neighborhood: {
+      schoolDistrict: "City School District",
+      proximityToAmenities: "Walking distance to parks, shops, and restaurants",
+      crimeRate: "Low",
+      communityVibe: "Family-Friendly"
+    }
   }
-];
+]
+
+
 
 export const featureData = [
   {

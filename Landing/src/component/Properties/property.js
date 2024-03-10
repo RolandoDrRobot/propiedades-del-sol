@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { properties } from "./data";
+import { propertiesLand } from "./data";
 import { LiaCompressArrowsAltSolid, BiBed, LiaBathSolid } from "../../assets/icons/vander"
 
 export default function Property() {
@@ -15,7 +15,7 @@ export default function Property() {
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-2 gap-[30px]">
-          {properties.map((item, index) => (
+          {propertiesLand.map((item, index) => (
             <div className="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
               <div className="relative">
                 <img src={item.image} alt="" />

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { properties } from "../component/Properties/data";
+import { propertiesLand } from "../component/Properties/data";
 import withRouter from "../component/withrouter";
 import Navbar from "../component/Navbar";
 import Switcher from "../component/Switcher";
@@ -30,7 +30,7 @@ function PropertyDetail(props) {
     const [photoIndex, setActiveIndex] = useState(0);
     const [isOpen, setOpen] = useState(false);
 
-    const property = properties.find((user) => user.id === parseInt(props.params.id));
+    const property = propertiesLand.find((user) => user.id === parseInt(props.params.id));
 
     const handleCLick = (index) => {
         setActiveIndex(index)

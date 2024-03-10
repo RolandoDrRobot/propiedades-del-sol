@@ -7,7 +7,7 @@ import Navbar from "../component/Navbar";
 import Pagination from "../component/Pagination";
 import Switcher from "../component/Switcher";
 
-import { properties } from "../component/Properties/data";
+import { propertiesLand } from "../component/Properties/data";
 
 import {LuSearch, RxHome, AiOutlineDollarCircle, FiFacebook, FiInstagram, FiTwitter, FiLinkedin } from "../assets/icons/vander"
 
@@ -93,7 +93,7 @@ export default function GridMap() {
                                     </form>
                                 </div>
 
-                                <Pagination itemsPerPage={6} items={properties} gridClass={`grid lg:grid-cols-2 grid-cols-1 mt-8 gap-[30px]`} />
+                                <Pagination itemsPerPage={6} items={propertiesLand} gridClass={`grid lg:grid-cols-2 grid-cols-1 mt-8 gap-[30px]`} />
 
 
                             </div>

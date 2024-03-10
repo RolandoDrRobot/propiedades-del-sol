@@ -95,7 +95,7 @@ export default function Footer() {
                     <div className="flex mt-6">
                       <FiMail className="w-5 h-5 text-green-600 me-3" />
                       <div className="">
-                        <Link to="mailto:contact@example.com" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">contact@example.com</Link>
+                        <Link to="mailto:rolando.arguello.emal@gmail.com" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">rolando.arguello.emal@gmail.com</Link>
                       </div>
                     </div>
 

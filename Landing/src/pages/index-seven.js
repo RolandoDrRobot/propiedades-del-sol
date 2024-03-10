@@ -12,7 +12,7 @@ import CountUp from 'react-countup';
 import { Carousel } from 'react-responsive-carousel';
 import '../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css'
 
-import { counterData, properties, teamdata } from "../component/Properties/data";
+import { counterData, propertiesLand, teamdata } from "../component/Properties/data";
 
 import{LuSearch, RxHome, AiOutlineDollarCircle, LiaCompressArrowsAltSolid, BiBed, LiaBathSolid, FiArrowRight, FiFacebook, FiInstagram, FiLinkedin} from "../assets/icons/vander"
 import About from "../component/About";
@@ -275,7 +275,7 @@ export default function IndexSeven(){
                 </div>
 
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] mt-8">
-                    {properties.map((item, index) => (
+                    {propertiesLand.map((item, index) => (
                         <div key={index} className="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500 w-full mx-auto lg:max-w-2xl">
                             <div className="md:flex">
                                 <div className="relative md:shrink-0">
