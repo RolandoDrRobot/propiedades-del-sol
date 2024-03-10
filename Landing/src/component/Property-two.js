@@ -62,7 +62,7 @@ export default function PropertyTwo() {
 
                     <div className="p-6">
                       <div className="pb-6">
-                        <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
+                        <Link to={`/land-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
 
                       </div>
 
@@ -110,8 +110,6 @@ export default function PropertyTwo() {
           </div>
         </div>
       </div>
-
-
     </>
   );
 }

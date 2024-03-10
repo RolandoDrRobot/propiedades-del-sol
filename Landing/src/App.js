@@ -10,7 +10,7 @@ import './assets/css/tailwind.css';
 import './assets/css/icons.css';
 
 import Index from "./pages/index.js";
-import PropertyDetail from "./pages/property-detail";
+import LandDetail from "./pages/land-detail";
 import IndexTwo from "./pages/index-two";
 import IndexFour from "./pages/index-four";
 import IndexFive from "./pages/index-five";
@@ -63,11 +63,11 @@ function App() {
 
         <Route path="/index-four" element={<IndexFour />} />
         <Route path="/index-five" element={<IndexFive />} />
-        <Route path="/index-six" element={<IndexSix/>} />
-        <Route path="/index-seven" element={<IndexSeven/>} />
-        
+        <Route path="/index-six" element={<IndexSix />} />
+        <Route path="/index-seven" element={<IndexSeven />} />
 
-        <Route path="/property-detail/:id" element={<PropertyDetail />} />
+
+        <Route path="/land-detail/:id" element={<LandDetail />} />
         <Route path="/buy" element={<Buy />} />
         <Route path="/sell" element={<Sell />} />
         <Route path="/aboutus" element={<Aboutus />} />

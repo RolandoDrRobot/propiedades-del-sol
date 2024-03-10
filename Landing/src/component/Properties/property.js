@@ -17,7 +17,7 @@ export default function Property() {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-2 gap-[30px]">
           {propertiesLand.map((item, index) => (
             <div className="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
-              <div className="relative">
+              <div className="relative property-pic">
                 <img src={item.image} alt="" />
                 {/* 
                   <div className="absolute top-4 end-4">
@@ -28,7 +28,7 @@ export default function Property() {
 
               <div className="p-6">
                 <div className="pb-6">
-                  <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
+                  <Link to={`/land-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
                 </div>
 
                 <ul className="border-y border-slate-100 dark:border-gray-800 flex items-center list-none">

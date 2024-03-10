@@ -9,7 +9,7 @@ import { useState } from 'react';
 import Footer from './components/footer';
 import Switcher from './components/switcher';
 import ExploreProperty from './pages/explore-property';
-import PropertyDetail from './pages/property-detail';
+import LandDetail from './pages/land-detail';
 import FavoriteProperty from './pages/favorite-property';
 import AddProperty from './pages/add-property';
 import Chat from './pages/chat';
@@ -60,8 +60,8 @@ function App() {
                 <Route path='/' element={<Index/>}/>
                 <Route path='/index' element={<Index/>}/>
                 <Route path='/explore-property' element={<ExploreProperty/>}/>
-                <Route path='/property-detail' element={<PropertyDetail/>}/>
-                <Route path='/property-detail/:id' element={<PropertyDetail/>}/>
+                <Route path='/land-detail' element={<LandDetail/>}/>
+                <Route path='/land-detail/:id' element={<LandDetail/>}/>
                 <Route path='/favorite-property' element={<FavoriteProperty/>}/>
                 <Route path='/add-property' element={<AddProperty/>}/>
                 <Route path='/chat' element={<Chat/>}/>

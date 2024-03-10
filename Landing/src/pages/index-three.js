@@ -54,7 +54,7 @@ export default function IndexThree() {
                   </div>
                   <div className="p-6">
                     <div className="md:pb-4 pb-6">
-                      <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">10765 Hillshire Ave, Baton Rouge, LA 70810, USA</Link>
+                      <Link to={`/land-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">10765 Hillshire Ave, Baton Rouge, LA 70810, USA</Link>
                     </div>
 
                     <ul className="md:py-4 py-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none">
