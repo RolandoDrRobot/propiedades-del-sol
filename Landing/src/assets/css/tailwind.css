@@ -3929,6 +3929,13 @@ html[dir=rtl] .tns-visually-hidden {
 .focus\:ring-offset-0:focus{
   --tw-ring-offset-width: 0px !important;
 }
+.group {
+  height: 100%;
+}
+.group img {
+  object-fit: cover;
+  height: 100%;
+}
 .group:hover .group-hover\:visible{
   visibility: visible !important;
 }

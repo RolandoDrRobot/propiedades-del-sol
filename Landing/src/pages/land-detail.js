@@ -10,13 +10,13 @@ import Footer from "../component/Footer";
 import Lightbox from 'react-18-image-lightbox';
 import 'react-18-image-lightbox/style.css';
 
-import { BsTelephone, LiaCompressArrowsAltSolid, BiBed, LiaBathSolid, AiOutlineCamera } from "../assets/icons/vander"
+import { BsTelephone, AiOutlineCamera, LiaCompressArrowsAltSolid, LiaNewspaperSolid, MdOutlineWaterDrop, GoLightBulb, GiRoad, CiLocationOn } from "../assets/icons/vander"
 
-import Image1 from "../assets/images/property/single/1.jpg";
-import Image2 from "../assets/images/property/single/2.jpg";
-import Image3 from "../assets/images/property/single/3.jpg";
-import Image4 from "../assets/images/property/single/4.jpg";
-import Image5 from "../assets/images/property/single/5.jpg";
+import Image1 from "../assets/images/land/1.jpeg";
+import Image2 from "../assets/images/land/2.jpeg";
+import Image3 from "../assets/images/land/3.jpeg";
+import Image4 from "../assets/images/land/4.jpeg";
+import Image5 from "../assets/images/land/5.jpeg";
 
 const images = [
   Image1,
@@ -36,6 +36,16 @@ function LandDetail(props) {
     setActiveIndex(index)
     setOpen(true);
   }
+
+  function GoogleMapsURLToEmbedURL(GoogleMapsURL) {
+    console.log(GoogleMapsURL)
+    var coords = /\@([0-9\.\,\-a-zA-Z]*)/.exec(GoogleMapsURL);
+    if (coords != null) {
+      var coordsArray = coords[1].split(',');
+      return "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20000!2d" + coordsArray[1] + "!3d" + coordsArray[0] + "!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1486486434098";
+    }
+  }
+
 
   return (
     <>
@@ -107,29 +117,42 @@ function LandDetail(props) {
             <div className="lg:w-2/3 md:w-1/2 md:p-4 px-3">
               <h4 className="text-2xl font-medium">{property?.name}</h4>
 
-              <ul className="py-6 flex items-center list-none">
-                <li className="flex items-center lg:me-6 me-4">
+              <ul className="py-6 flex items-center list-none  flex-wrap">
+                <li className="flex items-center lg:me-6 me-4 mb-4">
                   <LiaCompressArrowsAltSolid className="lg:text-3xl text-2xl me-2 text-green-600" />
-                  <span className="lg:text-xl">{property?.square}sqf</span>
+                  <span className="lg:text-xl">{property?.square} mts2</span>
                 </li>
 
-                <li className="flex items-center lg:me-6 me-4">
-                  <BiBed className="lg:text-3xl text-2xl me-2 text-green-600" />
-                  <span className="lg:text-xl">{property?.beds} Beds</span>
+                <li className="flex items-center lg:me-6 me-4 me-4 mb-4">
+                  <LiaNewspaperSolid className="lg:text-3xl text-2xl me-2 text-green-600" />
+                  <span className="lg:text-xl">{property?.legalConsiderations.titleIssues}</span>
                 </li>
 
-                <li className="flex items-center">
-                  <LiaBathSolid className="lg:text-3xl text-2xl me-2 text-green-600" />
-                  <span className="lg:text-xl">{property?.baths} Baths</span>
+                <li className="flex items-center lg:me-6 me-4 me-4 mb-4">
+                  <MdOutlineWaterDrop className="lg:text-3xl text-2xl me-2 text-green-600" />
+                  <span className="lg:text-xl">{property?.utilityInformation.waterSource}</span>
+                </li>
+
+                <li className="flex items-center lg:me-6 me-4 me-4 mb-4">
+                  <GoLightBulb className="lg:text-3xl text-2xl me-2 text-green-600" />
+                  <span className="lg:text-xl">{property?.utilityInformation.electricitySource}</span>
+                </li>
+
+                <li className="flex items-center lg:me-6 me-4 me-4 mb-4">
+                  <GiRoad className="lg:text-3xl text-2xl me-2 text-green-600" />
+                  <span className="lg:text-xl">{property?.terrainFeatures.accessibility}</span>
+                </li>
+
+                <li className="flex items-center lg:me-6 me-4 me-4 mb-4">
+                  <CiLocationOn className="lg:text-3xl text-2xl me-2 text-green-600" />
+                  <span className="lg:text-xl">{property?.address}, {property?.state}</span>
                 </li>
               </ul>
 
-              <p className="text-slate-400">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-              <p className="text-slate-400 mt-4">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
-              <p className="text-slate-400 mt-4">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
+              <p className="text-slate-400">{property?.description}</p>
 
               <div className="w-full leading-[0] border-0 mt-6">
-                <iframe title="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{ border: "0" }} className="w-full h-[500px]" allowFullScreen></iframe>
+                <iframe title="iframe" src={GoogleMapsURLToEmbedURL(property?.googleMapsLink)} style={{ border: "0" }} className="w-full h-[500px]" allowFullScreen></iframe>
               </div>
             </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { propertiesLand } from "./data";
-import { LiaCompressArrowsAltSolid, BiBed, LiaBathSolid } from "../../assets/icons/vander"
+import { LiaCompressArrowsAltSolid, LiaNewspaperSolid, MdOutlineWaterDrop, GoLightBulb, GiRoad, CiLocationOn  } from "../../assets/icons/vander"
 
 export default function Property() {
 
@@ -31,20 +31,35 @@ export default function Property() {
                   <Link to={`/land-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
                 </div>
 
-                <ul className="border-y border-slate-100 dark:border-gray-800 flex items-center list-none">
-                  <li className="flex items-center me-4">
+                <ul className="border-y border-slate-100 dark:border-gray-800 flex items-center list-none flex-wrap">
+                  <li className="flex items-center me-4 mb-4">
                     <LiaCompressArrowsAltSolid className="text-2xl me-2 text-green-600" /><i ></i>
                     <span>{item.square} mts2</span>
                   </li>
 
-                  <li className="flex items-center me-4">
-                    <BiBed className="text-2xl me-2 text-green-600" />
-                    <span>{item.beds}</span>
+                  <li className="flex items-center me-4 mb-4">
+                    <LiaNewspaperSolid className="text-2xl me-2 text-green-600" />
+                    <span>{item.legalConsiderations.titleIssues} </span>
                   </li>
 
-                  <li className="flex items-center">
-                    <LiaBathSolid className="text-2xl me-2 text-green-600" />
-                    <span>{item.baths}</span>
+                  <li className="flex items-center me-4 mb-4">
+                    <MdOutlineWaterDrop className="text-2xl me-2 text-green-600" />
+                    <span>{item.utilityInformation.waterSource}</span>
+                  </li>
+
+                  <li className="flex items-center me-4 mb-4">
+                    <GoLightBulb className="text-2xl me-2 text-green-600" />
+                    <span>{item.utilityInformation.electricitySource} </span>
+                  </li>
+
+                  <li className="flex items-center me-4 mb-4">
+                    <GiRoad className="text-2xl me-2 text-green-600" />
+                    <span>{item.terrainFeatures.accessibility}</span>
+                  </li>
+
+                  <li className="flex items-center me-4 mb-4">
+                    <CiLocationOn className="text-2xl me-2 text-green-600" />
+                    <span>{item.address}, {item.state}</span>
                   </li>
                 </ul>
 

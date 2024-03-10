@@ -49,7 +49,7 @@ export default function Navbar(props) {
               <Link className="logo" to="/">
                 <img src={LogoDark} className="inline-block dark:hidden" alt="" />
                 <img src={LogoLight} className="hidden dark:inline-block" alt="" />
-                <h1 className="inline-block">Propiedades del Sol</h1>
+                {/* <h1 className="inline-block">Propiedades del Sol</h1> */}
               </Link> :
               <Link className="logo" to="#">
                 <span className="inline-block dark:hidden">
