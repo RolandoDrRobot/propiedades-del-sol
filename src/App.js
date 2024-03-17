@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes
 } from "react-router-dom";
@@ -52,7 +52,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes >
         <Route path="/" element={<Buy />} />
@@ -97,7 +97,7 @@ function App() {
         <Route path="/blog-detail/:id" element={<BlogDetail />} />
         <Route path="/blog-sidebar" element={<BlogSidebar />} />
       </Routes>
-    </BrowserRouter >
+    </HashRouter >
   )
 
 }
