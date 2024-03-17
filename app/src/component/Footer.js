@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="relative py-16">
               {/* <!-- Subscribe --> */}
               <div className="relative w-full">
-                <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
+                <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 mt-5 mb-5 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
                   <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div className="md:text-start text-center z-1">
                       <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Recibe las Oportunidades Antes que Nadie!</h3>
@@ -113,19 +113,19 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="py-[30px] px-0 border-t border-gray-800 dark:border-gray-700">
+        <div className="py-[30px] px-0 border-t border-gray-800">
           <div className="container text-center">
             <div className="grid md:grid-cols-2 items-center gap-6">
               <div className="md:text-start text-center">
                 <p className="mb-0 text-gray-300">© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} Propiedades del Sol ©</p>
               </div>
 
-              <ul className="list-none md:text-end text-center">
+              {/* <ul className="list-none md:text-end text-center">
                 <li className="inline ms-1"><Link to="https://www.facebook.com/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiFacebook className="h-4 w-4" /></Link></li>
                 <li className="inline ms-1"><Link to="https://www.instagram.com/shreethemes/" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiInstagram className="h-4 w-4" /></Link></li>
                 <li className="inline ms-1"><Link to="https://twitter.com/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiTwitter className="h-4 w-4" /></Link></li>
                 <li className="inline ms-1"><Link to="mailto:support@shreethemes.in" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-green-600 dark:hover:border-green-600 hover:bg-green-600 dark:hover:bg-green-600"><FiMail className="h-4 w-4" /></Link></li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

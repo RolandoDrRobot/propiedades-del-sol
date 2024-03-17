@@ -3932,8 +3932,20 @@ html[dir=rtl] .tns-visually-hidden {
 .group {
   height: 100%;
 }
-.group img {
+.group.details {
+  height: 350px;
+}
+.group.details.sub {
+  height: 150px;
+}
+.group.details img {
   object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.group.details.sub img {
+  object-fit: cover;
+  width: 100%;
   height: 100%;
 }
 .group:hover .group-hover\:visible{
@@ -3993,6 +4005,7 @@ html[dir=rtl] .tns-visually-hidden {
 :is(.dark .dark\:border-gray-700){
   --tw-border-opacity: 1 !important;
   border-color: #4C6444 !important;
+  border: 1px solid #CABA9C !important;
 }
 :is(.dark .dark\:border-gray-800){
   --tw-border-opacity: 1 !important;
@@ -4065,6 +4078,7 @@ html[dir=rtl] .tns-visually-hidden {
 :is(.dark .dark\:shadow-gray-700){
   --tw-shadow-color: #4C6444 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
+  border: 1px solid #CABA9C !important;
 }
 :is(.dark .dark\:shadow-gray-800){
   --tw-shadow-color: #102820 !important;
@@ -4109,6 +4123,7 @@ html[dir=rtl] .tns-visually-hidden {
 :is(.dark .dark\:hover\:shadow-gray-700:hover){
   --tw-shadow-color: #4C6444 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
+  border: 1px solid #CABA9C !important;
 }
 :is(.dark .dark\:focus\:text-red-600:focus){
   --tw-text-opacity: 1 !important;

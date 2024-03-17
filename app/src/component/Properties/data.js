@@ -6,12 +6,6 @@ import Property4 from "../../assets/images/property/4.jpg";
 import Property5 from "../../assets/images/property/5.jpg";
 import Property6 from "../../assets/images/property/6.jpg";
 
-import Land1 from "../../assets/images/land/1.jpeg";
-import Land2 from "../../assets/images/land/2.jpeg";
-import Land3 from "../../assets/images/land/3.jpeg";
-import Land4 from "../../assets/images/land/4.jpeg";
-import Land5 from "../../assets/images/land/5.jpeg";
-
 import SubProperty1 from "../../assets/images/property/single/1.jpg";
 import SubProperty2 from "../../assets/images/property/single/2.jpg";
 import SubProperty3 from "../../assets/images/property/single/3.jpg";
@@ -32,252 +26,124 @@ import cate3 from "../../assets/images/property/commercial.jpg";
 import cate4 from "../../assets/images/property/investment.jpg";
 import cate5 from "../../assets/images/property/industrial.jpg";
 
+// Real Real Estate LT01 Assets
+import lt0101 from "../../assets/properties/LT01/01.jpeg";
+import lt0102 from "../../assets/properties/LT01/02.jpeg";
+import lt0103 from "../../assets/properties/LT01/03.jpg";
+import lt0104 from "../../assets/properties/LT01/04.jpg";
+import lt0105 from "../../assets/properties/LT01/05.jpg";
+import lt0106 from "../../assets/properties/LT01/06.jpg";
+import lt0107 from "../../assets/properties/LT01/07.jpg";
+
+// Real Real Estate LT02 Assets
+import lt0201 from "../../assets/properties/LT02/01.png";
+import lt0202 from "../../assets/properties/LT02/02.jpg";
+import lt0203 from "../../assets/properties/LT02/03.jpg";
+import lt0204 from "../../assets/properties/LT02/04.jpg";
+import lt0205 from "../../assets/properties/LT02/05.jpg";
+import lt0206 from "../../assets/properties/LT02/06.jpg";
+
 export const propertiesLand = [
   {
     id: 1,
     agentId: 1,
-    image: Land1,
-    name: '10765 Hillshire Ave, Baton Rouge, LA 70810, EE. UU.',
-    square: 8000,
-    type: "terreno",
-    price: 5000,
+    image: lt0105,
+    name: 'Lote de 712mts2 a 15min de Playa Samara, media hora de Nicoya, listo para construir',
+    square: 712,
+    type: "Terreno",
+    price: '30,000',
     rating: 5.0,
-    description: "Casa contemporánea de 4 habitaciones con vistas a la ciudad y características de hogar inteligente",
-    googleMapsLink: "https://www.google.com/maps/place/Torres+de+Heredia,+Heredia/@9.9785859,-84.1498362,17.15z/data=!4m15!1m8!3m7!1s0x8fa0fba960ca1987:0x938c6116c6c52900!2sTorres+de+Heredia,+Heredia!3b1!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7!3m5!1s0x8fa0fba960ca1987:0x938c6116c6c52900!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7?entry=ttu",
-    address: "123 Calle Tranquila",
-    country: "Estados Unidos",
-    state: "California",
-    detail: [Land1, Land2, Land3, Land4, Land5],
+    description: "",
+    googleMapsLink: "https://www.google.com/maps/place/9%C2%B058'36.5%22N+85%C2%B030'56.0%22W/@9.9768076,-85.5181389,17z/data=!3m1!4b1!4m4!3m3!8m2!3d9.9768076!4d-85.515564?hl=en&entry=ttu",
+    address: "Maquenco Samara",
+    country: "Costa Rica",
+    state: "Guanacaste",
+    phone: "+50683080167",
+    detail: [lt0105, lt0102, lt0103, lt0104, lt0101, lt0106, lt0107],
     terrainFeatures: {
-      canItBeDivided: "Sí, en dos parcelas",
-      terrainType: "Rural",
-      elevation: "Pendiente suave",
-      soilQuality: "Franco",
-      naturalResources: ["Madera", "Agua dulce"],
-      topography: "Variada",
-      accessibility: "Camino privado",
-      proximityToAmenities: "30 minutos a la ciudad más cercana",
-      environmentalConcerns: "No se informaron problemas ambientales"
+      canItBeDivided: "",
+      terrainType: "",
+      elevation: "",
+      soilQuality: "",
+      naturalResources: ["", ""],
+      topography: "",
+      accessibility: "Camino asfaltado",
+      proximityToAmenities: "",
+      environmentalConcerns: ""
     },
     legalConsiderations: {
-      zoningRegulations: "Agrícola",
-      landUseRestrictions: "Ninguna",
-      easements: "Servidumbre de utilidad",
-      propertyTaxStatus: "Al corriente",
-      titleIssues: "Ninguno",
+      zoningRegulations: "",
+      landUseRestrictions: "Todo uso de suelo",
+      easements: "",
+      propertyTaxStatus: "",
+      titleIssues: "Título en mano",
       surveyAvailable: true
     },
     utilityInformation: {
-      waterSource: "Pozo",
-      sewerSystem: "Fosa séptica (no instalada)",
-      electricitySource: "Red eléctrica local",
-      gasAvailability: "Propano",
-      internetConnectivity: "Disponible"
+      waterSource: "Agua de poso",
+      sewerSystem: "",
+      electricitySource: "Luz disponible",
+      gasAvailability: "",
+      internetConnectivity: ""
     },
     developmentPotential: {
-      futureLandValue: "Se espera que aprecie con el desarrollo local",
-      potentialLandUse: "Residencial o Agrícola",
-      infrastructurePlans: "Ninguno actualmente",
-      surroundingDevelopment: "Principalmente tierras de cultivo y residencias rurales",
-      marketTrends: "Demanda estable de propiedades rurales"
+      futureLandValue: "",
+      potentialLandUse: "",
+      infrastructurePlans: "",
+      surroundingDevelopment: "",
+      marketTrends: ""
     }
   },
   {
     id: 2,
-    agentId: 2,
-    image: Land2,
-    name: '555 Calle Principal, Ciudad Imaginaria, EE. UU.',
-    square: 12000,
-    type: "terreno",
-    price: 8000,
-    rating: 4.8,
-    description: "Encantadora propiedad rural con vistas panorámicas y potencial de desarrollo",
-    googleMapsLink: "https://www.google.com/maps/place/Torres+de+Heredia,+Heredia/@9.9785859,-84.1498362,17.15z/data=!4m15!1m8!3m7!1s0x8fa0fba960ca1987:0x938c6116c6c52900!2sTorres+de+Heredia,+Heredia!3b1!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7!3m5!1s0x8fa0fba960ca1987:0x938c6116c6c52900!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7?entry=ttu",
-    address: "789 Camino Sereno",
-    country: "Estados Unidos",
-    state: "California",
-    detail: [Land1, Land2, Land3, Land4, Land5],
+    agentId: 1,
+    image: lt0205,
+    name: 'Lote en Bagaces a 1km de la autopista, 15min de Liberia centro, 5min de llanos de cortes',
+    square: 1000,
+    type: "Terreno",
+    price: '20,000',
+    rating: 4,
+    description: "",
+    googleMapsLink: "https://www.google.com/maps/place/10%C2%B032'13.9%22N+85%C2%B015'54.6%22W/@10.5372028,-85.2677421,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.5372028!4d-85.2651672?hl=en&entry=ttu",
+    address: "Bagaces Centro",
+    country: "Costa RIca",
+    state: "Guanaacaste",
+    phone: "+50683080167",
+    detail: [lt0205, lt0202, lt0203, lt0204, lt0201, lt0206],
     terrainFeatures: {
-      canItBeDivided: "Sí, en tres parcelas",
-      terrainType: "Montañoso",
-      elevation: "Elevación moderada",
-      soilQuality: "Arcilloso",
-      naturalResources: ["Agua subterránea", "Vistas panorámicas"],
-      topography: "Variada",
-      accessibility: "Carretera pública",
-      proximityToAmenities: "15 minutos a la ciudad más cercana",
-      environmentalConcerns: "Sin problemas ambientales conocidos"
+      canItBeDivided: "",
+      terrainType: "",
+      elevation: "",
+      soilQuality: "",
+      naturalResources: ["", ""],
+      topography: "",
+      accessibility: "Autopista",
+      proximityToAmenities: "",
+      environmentalConcerns: ""
     },
     legalConsiderations: {
-      zoningRegulations: "Residencial",
-      landUseRestrictions: "Restricciones de altura",
-      easements: "Sin servidumbres conocidas",
-      propertyTaxStatus: "Al corriente",
-      titleIssues: "Ninguno",
+      zoningRegulations: "",
+      landUseRestrictions: "",
+      easements: "",
+      propertyTaxStatus: "",
+      titleIssues: "Falta inscripción",
       surveyAvailable: true
     },
     utilityInformation: {
-      waterSource: "Manantial",
-      sewerSystem: "Fosa séptica (instalada)",
-      electricitySource: "Generador propio",
-      gasAvailability: "Gas natural",
-      internetConnectivity: "Disponible"
+      waterSource: "Permiso Pendiente",
+      sewerSystem: "",
+      electricitySource: "Permiso Pendiente",
+      gasAvailability: "",
+      internetConnectivity: ""
     },
     developmentPotential: {
-      futureLandValue: "Potencial de valorización con desarrollo turístico",
-      potentialLandUse: "Turístico o Residencial",
-      infrastructurePlans: "Proyectos de carreteras en desarrollo",
-      surroundingDevelopment: "Zona en crecimiento con nuevos desarrollos",
-      marketTrends: "Demanda creciente en propiedades rurales"
+      futureLandValue: "",
+      potentialLandUse: "",
+      infrastructurePlans: "",
+      surroundingDevelopment: "",
+      marketTrends: ""
     }
-  },
-  {
-    id: 11,
-    agentId: 3,
-    image: Land3,
-    name: '321 Calle Tranquila, Pueblo Sereno, EE. UU.',
-    square: 6000,
-    type: "terreno",
-    price: 7000,
-    rating: 4.5,
-    description: "Propiedad rural con encanto histórico y potencial para proyectos agrícolas",
-    googleMapsLink: "https://www.google.com/maps/place/Torres+de+Heredia,+Heredia/@9.9785859,-84.1498362,17.15z/data=!4m15!1m8!3m7!1s0x8fa0fba960ca1987:0x938c6116c6c52900!2sTorres+de+Heredia,+Heredia!3b1!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7!3m5!1s0x8fa0fba960ca1987:0x938c6116c6c52900!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7?entry=ttu",
-    address: "456 Camino Campestre",
-    country: "Estados Unidos",
-    state: "California",
-    detail: [Land1, Land2, Land3, Land4, Land5],
-    terrainFeatures: {
-      canItBeDivided: "No, un solo lote",
-      terrainType: "Valle",
-      elevation: "Baja elevación",
-      soilQuality: "Fértil",
-      naturalResources: ["Agricultura", "Agua de manantial"],
-      topography: "Plana con suaves colinas",
-      accessibility: "Carretera pavimentada",
-      proximityToAmenities: "20 minutos a la ciudad más cercana",
-      environmentalConcerns: "Sin problemas ambientales conocidos"
-    },
-    legalConsiderations: {
-      zoningRegulations: "Agrícola y Residencial",
-      landUseRestrictions: "Ninguna",
-      easements: "Derechos de paso para agricultura",
-      propertyTaxStatus: "Al corriente",
-      titleIssues: "Ninguno",
-      surveyAvailable: true
-    },
-    utilityInformation: {
-      waterSource: "Red de agua municipal",
-      sewerSystem: "Fosa séptica (instalada)",
-      electricitySource: "Red eléctrica local",
-      gasAvailability: "Gas propano",
-      internetConnectivity: "Disponible"
-    },
-    developmentPotential: {
-      futureLandValue: "Potencial para desarrollo agrícola sostenible",
-      potentialLandUse: "Agrícola o Residencial",
-      infrastructurePlans: "Mejoras de carreteras planificadas",
-      surroundingDevelopment: "Área con granjas y desarrollo rural",
-      marketTrends: "Interés creciente en proyectos agrícolas"
-    }
-  },
-  {
-    id: 16,
-    agentId: 4,
-    image: Land4,
-    name: '789 Colina Encantada, Ciudad Vista, EE. UU.',
-    square: 10000,
-    type: "terreno",
-    price: 9500,
-    rating: 4.2,
-    description: "Terreno con vistas panorámicas y potencial para desarrollo residencial",
-    googleMapsLink: "https://www.google.com/maps/place/Torres+de+Heredia,+Heredia/@9.9785859,-84.1498362,17.15z/data=!4m15!1m8!3m7!1s0x8fa0fba960ca1987:0x938c6116c6c52900!2sTorres+de+Heredia,+Heredia!3b1!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7!3m5!1s0x8fa0fba960ca1987:0x938c6116c6c52900!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7?entry=ttu",
-    address: "101 Mirador Sereno",
-    country: "Estados Unidos",
-    state: "California",
-    detail: [Land1, Land2, Land3, Land4, Land5],
-    terrainFeatures: {
-      canItBeDivided: "Sí, en cinco parcelas",
-      terrainType: "Montañoso",
-      elevation: "Alta elevación",
-      soilQuality: "Rocoso",
-      naturalResources: ["Vistas panorámicas", "Aire fresco"],
-      topography: "Colinas escarpadas y mesetas",
-      accessibility: "Camino pavimentado",
-      proximityToAmenities: "15 minutos a la ciudad más cercana",
-      environmentalConcerns: "Sin problemas ambientales conocidos"
-    },
-    legalConsiderations: {
-      zoningRegulations: "Residencial",
-      landUseRestrictions: "Altura máxima permitida",
-      easements: "Ninguna servidumbre conocida",
-      propertyTaxStatus: "Al corriente",
-      titleIssues: "Ninguno",
-      surveyAvailable: true
-    },
-    utilityInformation: {
-      waterSource: "Manantial propio",
-      sewerSystem: "Fosa séptica (instalada)",
-      electricitySource: "Generador solar",
-      gasAvailability: "Gas natural",
-      internetConnectivity: "Disponible"
-    },
-    developmentPotential: {
-      futureLandValue: "Potencial para desarrollo residencial de lujo",
-      potentialLandUse: "Residencial",
-      infrastructurePlans: "Proyectos de energía renovable cercanos",
-      surroundingDevelopment: "Área de desarrollo residencial exclusivo",
-      marketTrends: "Demanda creciente en propiedades de lujo"
-    }
-  },
-  {
-    id: 21,
-    agentId: 5,
-    image: Land5,
-    name: '456 Camino Tranquilo, Pueblo Encanto, EE. UU.',
-    square: 7500,
-    type: "terreno",
-    price: 8200,
-    rating: 4.7,
-    description: "Parcela tranquila con potencial para proyectos agrícolas sostenibles",
-    googleMapsLink: "https://www.google.com/maps/place/Torres+de+Heredia,+Heredia/@9.9784706,-84.1500714,17z/data=!4m15!1m8!3m7!1s0x8fa0fba960ca1987:0x938c6116c6c52900!2sTorres+de+Heredia,+Heredia!3b1!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7!3m5!1s0x8fa0fba960ca1987:0x938c6116c6c52900!8m2!3d9.9784706!4d-84.1474965!16s%2Fg%2F11lm98ccm7?entry=ttu",
-    address: "222 Calle Silenciosa",
-    country: "Estados Unidos",
-    state: "California",
-    detail: [Land1, Land2, Land3, Land4, Land5],
-    terrainFeatures: {
-      canItBeDivided: "Sí, en tres parcelas",
-      terrainType: "Valle",
-      elevation: "Baja elevación",
-      soilQuality: "Fértil y bien drenado",
-      naturalResources: ["Agricultura sostenible", "Agua de manantial"],
-      topography: "Plana con suaves colinas",
-      accessibility: "Carretera de acceso privado",
-      proximityToAmenities: "25 minutos a la ciudad más cercana",
-      environmentalConcerns: "Sin problemas ambientales conocidos"
-    },
-    legalConsiderations: {
-      zoningRegulations: "Agrícola",
-      landUseRestrictions: "Ninguna",
-      easements: "Derechos de paso para agricultura sostenible",
-      propertyTaxStatus: "Al corriente",
-      titleIssues: "Ninguno",
-      surveyAvailable: true
-    },
-    utilityInformation: {
-      waterSource: "Sistema de riego y pozo",
-      sewerSystem: "Fosa séptica (instalada)",
-      electricitySource: "Generador solar",
-      gasAvailability: "Gas propano",
-      internetConnectivity: "Disponible"
-    },
-    developmentPotential: {
-      futureLandValue: "Potencial para desarrollo agrícola sostenible y turismo ecológico",
-      potentialLandUse: "Agrícola o Turismo ecológico",
-      infrastructurePlans: "Mejoras de carreteras planificadas",
-      surroundingDevelopment: "Área enfocada en agricultura sostenible",
-      marketTrends: "Interés creciente en proyectos ecológicos"
-    }
-  }   
+  }
 ]
 
 export const propertiesResidential = [
@@ -543,8 +409,6 @@ export const propertiesResidential = [
   }
 ]
 
-
-
 export const featureData = [
   {
     icon: FiHome,
@@ -562,6 +426,7 @@ export const featureData = [
     desc: 'Estos leads serán filtrados y ajustados según tus preferencias para garantizar que se alineen con tus objetivos ¡Prepárate para una experiencia inmobiliaria más efectiva y centrada en tus necesidades como vendedor!'
   },
 ]
+
 export const review = [
   {
     id: '1',
