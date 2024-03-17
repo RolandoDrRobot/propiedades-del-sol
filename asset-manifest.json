@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/propiedades-del-sol/static/css/main.c3c0296b.css",
-    "main.js": "/propiedades-del-sol/static/js/main.2a148f2f.js",
-    "static/js/787.f889c175.chunk.js": "/propiedades-del-sol/static/js/787.f889c175.chunk.js",
+    "main.js": "/propiedades-del-sol/static/js/main.50151b8a.js",
+    "static/js/787.4a29bb71.chunk.js": "/propiedades-del-sol/static/js/787.4a29bb71.chunk.js",
     "static/media/materialdesignicons-webfont.eot": "/propiedades-del-sol/static/media/materialdesignicons-webfont.4a8138d1cb5d6b81b4ce.eot",
     "static/media/materialdesignicons-webfont.ttf?v=6.5.95": "/propiedades-del-sol/static/media/materialdesignicons-webfont.06045137a6bebf225b52.ttf",
     "static/media/2.jpeg": "/propiedades-del-sol/static/media/2.e6d9b5a400304a31171c.jpeg",
@@ -44,11 +44,11 @@
     "static/media/Team_meeting_Two.svg": "/propiedades-del-sol/static/media/Team_meeting_Two.91eb9525d3698eab69f682f4a27a6921.svg",
     "index.html": "/propiedades-del-sol/index.html",
     "main.c3c0296b.css.map": "/propiedades-del-sol/static/css/main.c3c0296b.css.map",
-    "main.2a148f2f.js.map": "/propiedades-del-sol/static/js/main.2a148f2f.js.map",
-    "787.f889c175.chunk.js.map": "/propiedades-del-sol/static/js/787.f889c175.chunk.js.map"
+    "main.50151b8a.js.map": "/propiedades-del-sol/static/js/main.50151b8a.js.map",
+    "787.4a29bb71.chunk.js.map": "/propiedades-del-sol/static/js/787.4a29bb71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3c0296b.css",
-    "static/js/main.2a148f2f.js"
+    "static/js/main.50151b8a.js"
   ]
 }
