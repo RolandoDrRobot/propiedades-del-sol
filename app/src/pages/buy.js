@@ -19,10 +19,10 @@ export default function Buy() {
       <section
         style={{ backgroundImage: `url(${BackgroundImage})` }}
         className="relative table w-full py-32 lg:py-36 bg-[url('../../assets/images/bg/01.jpg')] bg-no-repeat bg-center bg-cover">
-        <div className="absolute inset-0 bg-black opacity-80"></div>
+        <div className="absolute inset-0"></div>
         <div className="container">
           <div className="grid grid-cols-1 text-center mt-10">
-            <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Somos Inversionistas. Revisamos cada trato al detalle para tí</h3>
+            <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Somos Inversionistas. Revisamos cada trato al detalle para tí 🇨🇷</h3>
           </div>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function Buy() {
       </div>
 
       <section className="relative md:pb-24 pb-16">
-        <div className="container relative -mt-[25px]">
+        {/* <div className="container relative -mt-[25px]">
           <div className="grid grid-cols-1">
             <div className="subcribe-form z-1">
               <form className="relative max-w-2xl mx-auto">
@@ -45,7 +45,7 @@ export default function Buy() {
               </form>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Hero  */}
         <Property />
         {/* <Feature /> */}

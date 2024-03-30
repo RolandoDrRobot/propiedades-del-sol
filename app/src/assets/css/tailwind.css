@@ -1305,7 +1305,7 @@ video {
   border-radius: 1rem !important;
 }
 .rounded-full{
-  border-radius: 9999px !important;
+  border-radius: 8px !important;
 }
 .rounded-lg{
   border-radius: 0.5rem !important;
@@ -1971,14 +1971,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   font-size: 17px;
   line-height: 24px;
   font-weight: 500;
+  transition: all 0.5s;
+  display: flex;
+  margin: auto 15px;
 }
 .btn:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-.btn {
-  /*  Button icons */
-  /* Button Link */
 }
 .btn.btn-lg{
   height: 3.5rem;
@@ -4005,7 +4004,8 @@ html[dir=rtl] .tns-visually-hidden {
 :is(.dark .dark\:border-gray-700){
   --tw-border-opacity: 1 !important;
   border-color: #4C6444 !important;
-  border: 1px solid #CABA9C !important;
+  border: 3px solid #CABA9C !important;
+  border-radius: 20px;
 }
 :is(.dark .dark\:border-gray-800){
   --tw-border-opacity: 1 !important;
@@ -4078,7 +4078,8 @@ html[dir=rtl] .tns-visually-hidden {
 :is(.dark .dark\:shadow-gray-700){
   --tw-shadow-color: #4C6444 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
-  border: 1px solid #CABA9C !important;
+  border: 3px solid #CABA9C !important;
+  border-radius: 20px;
 }
 :is(.dark .dark\:shadow-gray-800){
   --tw-shadow-color: #102820 !important;
@@ -4123,7 +4124,8 @@ html[dir=rtl] .tns-visually-hidden {
 :is(.dark .dark\:hover\:shadow-gray-700:hover){
   --tw-shadow-color: #4C6444 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
-  border: 1px solid #CABA9C !important;
+  border: 3px solid #CABA9C !important;
+  border-radius: 20px;
 }
 :is(.dark .dark\:focus\:text-red-600:focus){
   --tw-text-opacity: 1 !important;

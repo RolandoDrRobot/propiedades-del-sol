@@ -157,7 +157,7 @@ function LandDetail(props) {
 
             <div className="lg:w-1/3 md:w-1/2 md:p-4 px-3 mt-8 md:mt-0">
               <div className="sticky top-20">
-                <div className="rounded-md bg-slate-50 dark:bg-slate-800 shadow dark:shadow-gray-700">
+                <div className="rounded-xl bg-slate-50 dark:bg-slate-800 shadow dark:shadow-gray-700">
                   <div className="p-6">
                     <h5 className="text-2xl font-medium">Precio:</h5>
 
@@ -198,7 +198,7 @@ function LandDetail(props) {
                     <h3 className="mb-6 text-xl leading-normal font-medium text-black dark:text-white">¿Tienes preguntas?<br /> Contacta a Nuestro Agente de Confianza</h3>
 
                     <div className="mt-6">
-                      <Link to={`https://wa.me/${property?.phone}`} className="btn bg-transparent hover:bg-green-600 border border-green-600 text-green-600 hover:text-white rounded-md"><BsTelephone className="align-middle me-2" /> Whatsapp</Link>
+                      <Link to={`https://wa.me/${property?.phone}`} className="btn bg-green-600 hover:bg-green-700 border border-green-600 hover:text-white rounded-md"><BsTelephone className="align-middle me-2" /> Whatsapp</Link>
                     </div>
                   </div>
                 </div>

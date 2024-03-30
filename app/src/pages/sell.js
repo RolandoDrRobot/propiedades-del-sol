@@ -33,7 +33,7 @@ export default function Sell() {
       <section
         style={{ backgroundImage: `url(${BackgroundImage})` }}
         className="relative table w-full py-32 lg:py-36 bg-[url('../../assets/images/bg/01.jpg')] bg-no-repeat bg-center bg-cover">
-        <div className="absolute inset-0 bg-black opacity-80"></div>
+        <div className="absolute inset-0"></div>
         <div className="container">
           <div className="grid grid-cols-1 text-center mt-10">
             <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Vende rápido. Ahorra miles</h3>

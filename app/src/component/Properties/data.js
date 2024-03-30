@@ -130,7 +130,7 @@ export const propertiesLand = [
       surveyAvailable: true
     },
     utilityInformation: {
-      waterSource: "Permiso Pendiente",
+      waterSource: "Agua disponible lista",
       sewerSystem: "",
       electricitySource: "Permiso Pendiente",
       gasAvailability: "",

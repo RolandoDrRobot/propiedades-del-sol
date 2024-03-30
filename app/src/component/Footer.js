@@ -17,15 +17,16 @@ export default function Footer() {
                 <div className="relative -top-40 bg-white dark:bg-slate-900 lg:px-8 px-6 py-10 mt-5 mb-5 rounded-xl shadow-lg dark:shadow-gray-700 overflow-hidden">
                   <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div className="md:text-start text-center z-1">
-                      <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Recibe las Oportunidades Antes que Nadie!</h3>
-                      <p className="text-slate-400 max-w-xl mx-auto">suscríbete a nuestra lista exclusiva de inversionistas</p>
+                      <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Recibe las Oportunidades Antes!</h3>
+                      <p className="text-slate-400 max-w-xl mx-auto">Entra en nuestro grupo de Telegram para inversionistas</p>
                     </div>
 
                     <div className="subcribe-form z-1">
-                      <form className="relative max-w-lg md:ms-auto">
+                      {/* <form className="relative max-w-lg md:ms-auto">
                         <input type="email" id="subcribe" name="email" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700" placeholder="Escribe tu email" />
-                        <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Suscribirse</button>
-                      </form>
+                        <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Entra al grupo aquí</button>
+                      </form> */}
+                      <a href="https://t.me/+kHyoc4sf_Ls5NmIx" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full relative max-w-lg md:ms-auto">Entra al grupo aquí</a>
                     </div>
                   </div>
 
@@ -56,24 +57,24 @@ export default function Footer() {
                     </div>
                     <p className="mt-6 text-gray-300">Nuestro marketplace te conecta con propiedades premium antes de que aparezcan en el mercado, brindándote una ventaja distintiva en tus decisiones de inversión.</p>
                   </div>
-
+{/* 
                   <div className="lg:col-span-2 md:col-span-4">
                     <h5 className="tracking-[1px] text-gray-100 font-semibold">Compañía</h5>
                     <ul className="list-none footer-list mt-6">
                       <li className="mt-[10px]"><Link to="/terms" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl" />Términos y Condiciones</Link></li>
                       <li className="mt-[10px]"><Link to="/privacy" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl" /> Política de Privacidad</Link></li>
                       <li className="mt-[10px]" ><Link to="/aboutus" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl" /> Quiénes Somos</Link></li>
-                      {/* <li className="mt-[10px]"><Link to="/features" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Services</Link></li>
+                      <li className="mt-[10px]"><Link to="/features" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Services</Link></li>
                           <li className="mt-[10px]"><Link to="/pricing" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Pricing</Link></li>
                           <li className="mt-[10px]"><Link to="/blog" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Blog</Link></li>
-                          <li className="mt-[10px]"><Link to="/auth-login" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Login</Link></li> */}
+                          <li className="mt-[10px]"><Link to="/auth-login" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Login</Link></li>
                     </ul>
-                  </div>
+                  </div> */}
 
                   <div className="lg:col-span-3 md:col-span-4">
                     <h5 className="tracking-[1px] text-gray-100 font-semibold">Links Útiles</h5>
                     <ul className="list-none footer-list mt-6">
-                      <li className="mt-[10px]"><Link to="/" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl" /> Oportunidades</Link></li>
+                      <li className="mt-[10px]"><Link to="/" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl" /> Lotes Costa Rica 🇨🇷</Link></li>
                       <li className="mt-[10px]"><Link to="/sell" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl" /> Quiero Vender</Link></li>
                       {/* <li><Link to="/terms" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Terms of Services</Link></li>
                                             <li className="mt-[10px]"><Link to="/privacy" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="me-1 text-xl"/> Privacy Policy</Link></li> */}
