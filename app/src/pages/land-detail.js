@@ -148,9 +148,23 @@ function LandDetail(props) {
                 </li>
               </ul>
 
-              <p className="text-slate-400">{property?.description}</p>
+              <p className="text-slate-400 mb-4">
+                {property?.legalConsiderations?.landUseRestrictions} 
+                {property?.legalConsiderations?.propertyTaxStatus} 
+                {property?.legalConsiderations?.easements} 
+                {property?.utilityInformation?.waterSourceComment} 
+                {property?.utilityInformation?.electricitySourceComment}
+              </p>
 
-              <div className="w-full leading-[0] border-0 shadow dark:shadow-gray-700">
+              <h5 className="text-2xl font-medium">Ubicación</h5>
+              <p className="text-slate-400 mb-4 overflow-hidden">
+                <a href={property?.googleMapsLink} className="text-slate-400 mb-4 overflow-hidden" target="_blank">
+                  {property?.googleMapsLink}
+                </a>
+              </p>
+              
+
+              <div className="w-full leading-[0] border-0 shadow dark:shadow-gray-700 mt-4">
                 <iframe title="iframe" src={GoogleMapsURLToEmbedURL(property?.googleMapsLink)} style={{ border: "0" }} className="w-full h-[500px]" allowFullScreen></iframe>
               </div>
             </div>
