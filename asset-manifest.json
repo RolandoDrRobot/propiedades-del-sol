@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/propiedades-del-sol/static/css/main.7a0452e5.css",
-    "main.js": "/propiedades-del-sol/static/js/main.b43cb185.js",
+    "main.js": "/propiedades-del-sol/static/js/main.0d89d7d0.js",
     "static/js/787.4a29bb71.chunk.js": "/propiedades-del-sol/static/js/787.4a29bb71.chunk.js",
+    "static/media/09.mp4": "/propiedades-del-sol/static/media/09.36d4003365ecee1fa1b6.mp4",
+    "static/media/08.mp4": "/propiedades-del-sol/static/media/08.cff82549d0d1b53131da.mp4",
     "static/media/04.jpg": "/propiedades-del-sol/static/media/04.35463172278c4051b5f4.jpg",
     "static/media/02.jpg": "/propiedades-del-sol/static/media/02.7df14e12e444ad660802.jpg",
-    "static/media/07.jpg": "/propiedades-del-sol/static/media/07.e3f0e9f968929876ad53.jpg",
-    "static/media/06.jpg": "/propiedades-del-sol/static/media/06.7365b7fa25b4bccc5ff9.jpg",
+    "static/media/07.jpg": "/propiedades-del-sol/static/media/07.e3a78f85013b0d2559d8.jpg",
+    "static/media/06.jpg": "/propiedades-del-sol/static/media/06.68e252980b08c9884671.jpg",
+    "static/media/01.jpg": "/propiedades-del-sol/static/media/01.6ac85de7298319b1f8d5.jpg",
     "static/media/03.jpg": "/propiedades-del-sol/static/media/03.ba5f8794c055cc1488b5.jpg",
     "static/media/05.jpg": "/propiedades-del-sol/static/media/05.a7ab2c82813cb95da9d6.jpg",
     "static/media/materialdesignicons-webfont.eot": "/propiedades-del-sol/static/media/materialdesignicons-webfont.4a8138d1cb5d6b81b4ce.eot",
@@ -19,7 +22,6 @@
     "static/media/industrial.jpg": "/propiedades-del-sol/static/media/industrial.47dbee594b3ad41871a0.jpg",
     "static/media/materialdesignicons-webfont.woff2?v=6.5.95": "/propiedades-del-sol/static/media/materialdesignicons-webfont.2acd2598cbed682569c8.woff2",
     "static/media/01.jpeg": "/propiedades-del-sol/static/media/01.22ac4f03dcba623e1636.jpeg",
-    "static/media/01.jpg": "/propiedades-del-sol/static/media/01.6ac85de7298319b1f8d5.jpg",
     "static/media/02.jpeg": "/propiedades-del-sol/static/media/02.21965904a5790aae7816.jpeg",
     "static/media/commercial.jpg": "/propiedades-del-sol/static/media/commercial.a353ae9efa8484e12873.jpg",
     "static/media/6.jpg": "/propiedades-del-sol/static/media/6.e926f8483d02a9e86342.jpg",
@@ -34,6 +36,7 @@
     "static/media/9.jpg": "/propiedades-del-sol/static/media/9.3890899d07b0975f1166.jpg",
     "static/media/map.png": "/propiedades-del-sol/static/media/map.3c125f85346ff23735e7.png",
     "static/media/about.jpg": "/propiedades-del-sol/static/media/about.f67dcc77d84a6e14d5de.jpg",
+    "static/media/08.jpg": "/propiedades-del-sol/static/media/08.279ceda2f1807bb41522.jpg",
     "static/media/contact.svg": "/propiedades-del-sol/static/media/contact.9a5ddc68f4f732b0d302408faa525a9d.svg",
     "static/media/session_Flatline.svg": "/propiedades-del-sol/static/media/session_Flatline.24c0e9d372d3b457165d68fa71f47756.svg",
     "static/media/team_Flatline.svg": "/propiedades-del-sol/static/media/team_Flatline.c0956c9748f22a80354be0e13461c58e.svg",
@@ -43,11 +46,11 @@
     "static/media/Team_meeting_Two.svg": "/propiedades-del-sol/static/media/Team_meeting_Two.91eb9525d3698eab69f682f4a27a6921.svg",
     "index.html": "/propiedades-del-sol/index.html",
     "main.7a0452e5.css.map": "/propiedades-del-sol/static/css/main.7a0452e5.css.map",
-    "main.b43cb185.js.map": "/propiedades-del-sol/static/js/main.b43cb185.js.map",
+    "main.0d89d7d0.js.map": "/propiedades-del-sol/static/js/main.0d89d7d0.js.map",
     "787.4a29bb71.chunk.js.map": "/propiedades-del-sol/static/js/787.4a29bb71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a0452e5.css",
-    "static/js/main.b43cb185.js"
+    "static/js/main.0d89d7d0.js"
   ]
 }

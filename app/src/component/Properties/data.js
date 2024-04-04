@@ -47,22 +47,22 @@ import lt0206 from "../../assets/properties/LT02/06.jpg";
 import lt0301 from "../../assets/properties/LT03/01.jpg";
 import lt0302 from "../../assets/properties/LT03/02.jpg";
 import lt0303 from "../../assets/properties/LT03/03.jpg";
-import lt0304 from "../../assets/properties/LT03/04.mp4";
+import lt0304 from "../../assets/properties/LT03/04.jpg";
 import lt0305 from "../../assets/properties/LT03/05.jpg";
 import lt0306 from "../../assets/properties/LT03/06.jpg";
-import lt0307 from "../../assets/properties/LT03/06.jpg";
-import lt0308 from "../../assets/properties/LT03/06.jpg";
+import lt0307 from "../../assets/properties/LT03/07.jpg";
+import lt0308 from "../../assets/properties/LT03/08.mp4";
 
 // Real Real Estate LT04 Assets
 import lt0401 from "../../assets/properties/LT04/01.jpg";
 import lt0402 from "../../assets/properties/LT04/02.jpg";
 import lt0403 from "../../assets/properties/LT04/03.jpg";
-import lt0404 from "../../assets/properties/LT04/04.mp4";
+import lt0404 from "../../assets/properties/LT04/04.jpg";
 import lt0405 from "../../assets/properties/LT04/05.jpg";
 import lt0406 from "../../assets/properties/LT04/06.jpg";
-import lt0407 from "../../assets/properties/LT04/06.jpg";
-import lt0408 from "../../assets/properties/LT04/06.jpg";
-import lt0409 from "../../assets/properties/LT04/06.jpg";
+import lt0407 from "../../assets/properties/LT04/07.jpg";
+import lt0408 from "../../assets/properties/LT04/08.jpg";
+import lt0409 from "../../assets/properties/LT04/09.mp4";
 
 export const propertiesLand = [
   {

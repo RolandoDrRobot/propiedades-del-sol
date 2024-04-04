@@ -23,6 +23,10 @@ function LandDetail(props) {
   const Image3 = property?.detail[2];
   const Image4 = property?.detail[3];
   const Image5 = property?.detail[4];
+  const Image6 = property?.detail[5];
+  const Image7 = property?.detail[6];
+  const Image8 = property?.detail[7];
+  const Image9 = property?.detail[8];
 
   const images = [
     Image1,
@@ -162,7 +166,6 @@ function LandDetail(props) {
                   {property?.googleMapsLink}
                 </a>
               </p>
-              
 
               <div className="w-full leading-[0] border-0 shadow dark:shadow-gray-700 mt-4">
                 <iframe title="iframe" src={GoogleMapsURLToEmbedURL(property?.googleMapsLink)} style={{ border: "0" }} className="w-full h-[500px]" allowFullScreen></iframe>
