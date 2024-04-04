@@ -43,6 +43,27 @@ import lt0204 from "../../assets/properties/LT02/04.jpg";
 import lt0205 from "../../assets/properties/LT02/05.jpg";
 import lt0206 from "../../assets/properties/LT02/06.jpg";
 
+// Real Real Estate LT03 Assets
+import lt0301 from "../../assets/properties/LT03/01.jpg";
+import lt0302 from "../../assets/properties/LT03/02.jpg";
+import lt0303 from "../../assets/properties/LT03/03.jpg";
+import lt0304 from "../../assets/properties/LT03/04.mp4";
+import lt0305 from "../../assets/properties/LT03/05.jpg";
+import lt0306 from "../../assets/properties/LT03/06.jpg";
+import lt0307 from "../../assets/properties/LT03/06.jpg";
+import lt0308 from "../../assets/properties/LT03/06.jpg";
+
+// Real Real Estate LT04 Assets
+import lt0401 from "../../assets/properties/LT04/01.jpg";
+import lt0402 from "../../assets/properties/LT04/02.jpg";
+import lt0403 from "../../assets/properties/LT04/03.jpg";
+import lt0404 from "../../assets/properties/LT04/04.mp4";
+import lt0405 from "../../assets/properties/LT04/05.jpg";
+import lt0406 from "../../assets/properties/LT04/06.jpg";
+import lt0407 from "../../assets/properties/LT04/06.jpg";
+import lt0408 from "../../assets/properties/LT04/06.jpg";
+import lt0409 from "../../assets/properties/LT04/06.jpg";
+
 export const propertiesLand = [
   {
     id: 1,
@@ -137,6 +158,110 @@ export const propertiesLand = [
       sewerSystem: "",
       electricitySource: "Luz Disponible",
       electricitySourceComment: "La quinta ya tiene la luz disponible, el permiso se tramita una vez inscrito el lote",
+      gasAvailability: "",
+      internetConnectivity: ""
+    },
+    developmentPotential: {
+      futureLandValue: "",
+      potentialLandUse: "",
+      infrastructurePlans: "",
+      surroundingDevelopment: "",
+      marketTrends: ""
+    }
+  },
+  {
+    id: 3,
+    agentId: 1,
+    image: lt0303,
+    name: 'Oportunidad de quinta en Bagaces.  En Bagaces centro a solo 20 min de Liberia, 20 min de llanos de Cortes y con facil acceso a todas las playas de Guanacaste',
+    square: 5000,
+    type: "Terreno",
+    price: '46,000',
+    rating: 4,
+    description: "",
+    googleMapsLink: "https://www.google.com/maps/place/10%C2%B031'40.7%22N+85%C2%B014'48.8%22W/@10.527966,-85.246893,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.527966!4d-85.246893?entry=ttu",
+    address: "Bagaces",
+    country: "Costa RIca",
+    state: "Guanacaste",
+    phone: "+50683080167",
+    detail: [lt0301, lt0302, lt0303, lt0304, lt0305, lt0306, lt0307, lt0308],
+    terrainFeatures: {
+      canItBeDivided: "",
+      terrainType: "",
+      elevation: "",
+      soilQuality: "",
+      naturalResources: ["", ""],
+      topography: "",
+      accessibility: "Lastre, Asfaltado a 200mts",
+      proximityToAmenities: "",
+      environmentalConcerns: ""
+    },
+    legalConsiderations: {
+      zoningRegulations: "",
+      landUseRestrictions: "Todo uso de suelo",
+      easements: "Lote tiene 60mts de calle publica",
+      propertyTaxStatus: "",
+      titleIssues: "Título en mano",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Agua Disponible",
+      waterSourceComment: "El acueducto esta instalado en la calle publica",
+      sewerSystem: "",
+      electricitySource: "Luz Disponible",
+      electricitySourceComment: "La corriente pasa por el frente de la quinta",
+      gasAvailability: "",
+      internetConnectivity: ""
+    },
+    developmentPotential: {
+      futureLandValue: "",
+      potentialLandUse: "",
+      infrastructurePlans: "",
+      surroundingDevelopment: "",
+      marketTrends: ""
+    }
+  },
+  {
+    id: 4,
+    agentId: 1,
+    image: lt0402,
+    name: 'Lote en Bagaces 2643mts2, 2E Residencial MANANTIALES, 800mts del Pali, 15 min de Liberia, 20 min de Llanos de Cortes',
+    square: 2600,
+    type: "Terreno",
+    price: '30,000',
+    rating: 4,
+    description: "",
+    googleMapsLink: "https://www.google.com/maps/place/10%C2%B031'40.7%22N+85%C2%B014'48.8%22W/@10.527966,-85.246893,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.527966!4d-85.246893?entry=ttu",
+    address: "Bagaces",
+    country: "Costa RIca",
+    state: "Guanacaste",
+    phone: "+50683080167",
+    detail: [lt0401, lt0402, lt0403, lt0404, lt0405, lt0406, lt0407, lt0408, lt0409],
+    terrainFeatures: {
+      canItBeDivided: "",
+      terrainType: "",
+      elevation: "",
+      soilQuality: "",
+      naturalResources: ["", ""],
+      topography: "",
+      accessibility: "Lastre, Asfaltado a 200mts",
+      proximityToAmenities: "",
+      environmentalConcerns: ""
+    },
+    legalConsiderations: {
+      zoningRegulations: "",
+      landUseRestrictions: "",
+      easements: "",
+      propertyTaxStatus: "",
+      titleIssues: "Título en mano",
+      surveyAvailable: true
+    },
+    utilityInformation: {
+      waterSource: "Agua No Disponible",
+      waterSourceComment: "",
+      sewerSystem: "",
+      electricitySource: "Luz No Disponible",
+      electricitySourceComment: "",
       gasAvailability: "",
       internetConnectivity: ""
     },
@@ -459,6 +584,7 @@ export const review = [
     description: "¡Gran experiencia por todos lados! Fácil de usar y eficiente"
   }
 ]
+
 export const teamdata = [
   {
     image: client6,
@@ -486,6 +612,7 @@ export const counterData = [
     title: 'Años de Experiencia'
   },
 ]
+
 export const categoriesData = [
   {
     image: cate1,
@@ -513,6 +640,7 @@ export const categoriesData = [
     title: '12 Listings'
   },
 ]
+
 export const featureTwo = [
   {
     icon: 'mdi mdi-cards-heart',
@@ -566,6 +694,7 @@ export const pricing = [
     features: ["Full Access", "Source Files", "Free Appointments", "Enhanced Security"]
   }
 ]
+
 export const accordionData = [
   {
     title: 'How does it work ?',
@@ -584,6 +713,7 @@ export const accordionData = [
     content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
   }
 ]
+
 export const blogList = [
   {
     id: 1,
